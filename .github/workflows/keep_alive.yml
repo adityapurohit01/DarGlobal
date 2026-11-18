@@ -1,0 +1,22 @@
+name: Keep Render Deployment Warm
+
+on:
+  schedule:
+    # Runs every 10 minutes (Render spins down after 15 min inactivity)
+    - cron: '*/10 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  warmup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Live Application
+        run: |
+          echo "Pinging DarGlobal Concierge live container..."
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://darglobal-concierge-6udw.onrender.com/)
+          echo "Received HTTP status: $STATUS"
+          if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
+            echo "Success: Container is warm and responsive."
+          else
+            echo "Notice: Non-2xx/3xx status received ($STATUS)."
+          fi
