@@ -2,8 +2,15 @@
 
 import json
 import logging
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Ensure project root is on sys.path for direct streamlit execution
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
 import streamlit as st
 from dotenv import load_dotenv
 
@@ -270,6 +277,26 @@ st.markdown(
     }
 
     /* Custom Input & Chat Styling */
+    div[data-testid="stChatMessage"] {
+        background-color: rgba(18, 24, 38, 0.75) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+        border-radius: 12px !important;
+        padding: 16px 20px !important;
+        margin-bottom: 14px !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+    }
+    div[data-testid="stChatMessage"] p, 
+    div[data-testid="stChatMessage"] span,
+    div[data-testid="stChatMessage"] li,
+    div[data-testid="stChatMessage"] div {
+        color: #e6edf3 !important;
+        font-size: 0.95rem !important;
+        line-height: 1.6 !important;
+    }
+    div[data-testid="stChatMessage"] strong,
+    div[data-testid="stChatMessage"] b {
+        color: #f6e27a !important;
+    }
     .stChatInputContainer {
         border-color: rgba(212, 175, 55, 0.4) !important;
     }
@@ -296,6 +323,32 @@ def load_all_properties():
         with open(data_file, encoding="utf-8") as f:
             return json.load(f)
     return []
+
+
+def get_property_image(prop: dict) -> str:
+    """Intelligently maps properties to high-resolution architectural imagery, bypassing CDN hotlink blocks."""
+    title = (prop.get("title") or "").lower()
+    brand = (prop.get("brand_partner") or "").lower()
+    p_type = (prop.get("property_type") or "").lower()
+    city = (prop.get("city") or "").lower()
+
+    if "pagani" in title or "pagani" in brand:
+        return "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
+    if "aston martin" in title or "astera" in title:
+        return "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80"
+    if "lamborghini" in title or "tierra viva" in title:
+        return "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80"
+    if "golf" in title or "jumeirah golf" in title:
+        return "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+    if "w residences" in title or "trump" in title or "dg1" in title:
+        return "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80"
+    if "aida" in title or "oman" in city or "coast" in title:
+        return "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80"
+    if "villa" in p_type or "mansion" in title or "villa" in title:
+        return "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+    if "riyadh" in city or "jeddah" in city:
+        return "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80"
+    return "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80"
 
 
 def format_price(price_aed: float, currency: str) -> str:
@@ -484,12 +537,12 @@ with tab_chat:
                         with cols[i]:
                             badge_cls = "badge-dg" if p.get("source") == "DarGlobal" else "badge-ws"
                             formatted_p = format_price(p.get("price_aed", 0), selected_currency)
-                            img_src = p.get("image_url") or "https://cdn.darglobal.co.uk/large_TTD_exterior_02_bd7d425e3c.webp"
+                            img_src = get_property_image(p)
                             st.markdown(
                                 f"""
                                 <div class='property-card-container'>
                                     <div class='card-img-wrapper'>
-                                        <img src='{img_src}' class='card-img' onerror="this.src='https://cdn.darglobal.co.uk/large_TTD_exterior_02_bd7d425e3c.webp';"/>
+                                        <img src='{img_src}' class='card-img'/>
                                     </div>
                                     <div class='card-content'>
                                         <div>
@@ -566,12 +619,12 @@ with tab_chat:
                         with cols[i]:
                             badge_cls = "badge-dg" if p.get("source") == "DarGlobal" else "badge-ws"
                             formatted_p = format_price(p.get("price_aed", 0), selected_currency)
-                            img_src = p.get("image_url") or "https://cdn.darglobal.co.uk/large_TTD_exterior_02_bd7d425e3c.webp"
+                            img_src = get_property_image(p)
                             st.markdown(
                                 f"""
                                 <div class='property-card-container'>
                                     <div class='card-img-wrapper'>
-                                        <img src='{img_src}' class='card-img' onerror="this.src='https://cdn.darglobal.co.uk/large_TTD_exterior_02_bd7d425e3c.webp';"/>
+                                        <img src='{img_src}' class='card-img'/>
                                     </div>
                                     <div class='card-content'>
                                         <div>
@@ -660,14 +713,14 @@ with tab_catalog:
         with grid_cols[col_idx]:
             badge_cls = "badge-dg" if prop.get("source") == "DarGlobal" else "badge-ws"
             formatted_p = format_price(prop.get("price_aed", 0), selected_currency)
-            img_src = prop.get("image_url") or "https://cdn.darglobal.co.uk/large_TTD_exterior_02_bd7d425e3c.webp"
+            img_src = get_property_image(prop)
             brand_pill = f"<span class='badge-tag' style='background:rgba(212,175,55,0.15); border:1px solid #d4af37; color:#f6e27a;'>✨ {prop.get('brand_partner')}</span>" if prop.get("brand_partner") else ""
 
             st.markdown(
                 f"""
                 <div class='property-card-container'>
                     <div class='card-img-wrapper'>
-                        <img src='{img_src}' class='card-img' onerror="this.src='https://cdn.darglobal.co.uk/large_TTD_exterior_02_bd7d425e3c.webp';"/>
+                        <img src='{img_src}' class='card-img'/>
                     </div>
                     <div class='card-content'>
                         <div>
