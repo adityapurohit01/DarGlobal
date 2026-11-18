@@ -2,9 +2,11 @@
 
 import json
 import logging
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any, Optional
 
 # Ensure project root is on sys.path for direct streamlit execution
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -334,6 +336,92 @@ def load_all_properties():
     return []
 
 
+def retrieve_portfolio_assets(
+    query: str,
+    all_props: list[dict],
+    qdrant: QdrantService,
+    embedder: EmbeddingService,
+    selected_city: Optional[str] = None,
+    selected_type: Optional[str] = None,
+    budget_cap_aed: Optional[float] = None,
+) -> list[dict]:
+    """Intelligently retrieves portfolio assets matching location, property type, and sorting superlatives."""
+    q = query.lower()
+
+    # 1. Location Intent Extraction
+    detected_city = None
+    if any(k in q for k in ["dubai", "دبي"]):
+        detected_city = "Dubai"
+    elif any(k in q for k in ["riyadh", "الرياض"]):
+        detected_city = "Riyadh"
+    elif any(k in q for k in ["jeddah", "جدة"]):
+        detected_city = "Jeddah"
+    elif any(k in q for k in ["muscat", "oman", "مسقط", "عمان"]):
+        detected_city = "Muscat"
+    elif any(k in q for k in ["spain", "marbella", "benahavis", "اسبانيا", "tierra viva"]):
+        detected_city = "Spain"
+    elif any(k in q for k in ["qatar", "doha", "قطر"]):
+        detected_city = "Qatar"
+    elif any(k in q for k in ["london", "uk", "united kingdom", "لندن"]):
+        detected_city = "United Kingdom"
+    elif any(k in q for k in ["rak", "ras al khaimah", "marjan"]):
+        detected_city = "United Arab Emirates"
+    elif selected_city and selected_city != "All Destinations":
+        detected_city = selected_city
+
+    # 2. Property Type Intent Extraction
+    detected_type = None
+    if any(k in q for k in ["villa", "villas", "mansion", "فيلا", "فلل"]):
+        detected_type = "Villa"
+    elif any(k in q for k in ["apartment", "apartments", "flat", "flats", "penthouse", "شقة", "شقق"]):
+        detected_type = "Apartment"
+    elif selected_type and selected_type != "All Types":
+        detected_type = selected_type
+
+    # 3. Superlative & Volume Intent Detection
+    is_sort_desc = any(w in q for w in ["expensive", "highest", "costliest", "priciest", "max price", "top luxury", "wealthiest"])
+    is_sort_asc = any(w in q for w in ["cheapest", "lowest", "affordable", "min price", "least expensive", "budget friendly"])
+    is_all = any(w in q for w in ["all", "list", "every", "what all", "show all", "portfolio"])
+
+    limit = 6 if is_all else 3
+
+    # Candidate subset
+    candidates = all_props
+    if detected_city:
+        candidates = [p for p in candidates if p.get("city") == detected_city]
+    if detected_type:
+        candidates = [p for p in candidates if detected_type.lower() in (p.get("property_type") or "").lower()]
+    if budget_cap_aed:
+        candidates = [p for p in candidates if (p.get("price_aed") or 0) <= budget_cap_aed]
+
+    # Handle sorting queries directly on candidate dataset
+    if is_sort_desc:
+        res = sorted(
+            [p for p in candidates if p.get("price_aed") and p.get("price_aed") < 100000000],
+            key=lambda x: x["price_aed"],
+            reverse=True,
+        )
+        return res[:limit]
+    elif is_sort_asc:
+        res = sorted([p for p in candidates if p.get("price_aed")], key=lambda x: x["price_aed"])
+        return res[:limit]
+
+    # Semantic Vector Search via Qdrant Cloud
+    query_vector = embedder.embed_text(query)
+    qdrant_results = qdrant.search(
+        query_vector=query_vector,
+        city=detected_city,
+        max_price_aed=budget_cap_aed,
+        property_type=detected_type,
+        limit=limit,
+    )
+
+    if qdrant_results:
+        return qdrant_results
+
+    return candidates[:limit]
+
+
 def get_property_image(prop: dict) -> str:
     """Intelligently maps properties to high-resolution architectural imagery, bypassing CDN hotlink blocks."""
     title = (prop.get("title") or "").lower()
@@ -547,98 +635,99 @@ with tab_chat:
     col_chat_main, col_chat_side = st.columns([7, 3])
 
     with col_chat_main:
-        if "messages" not in st.session_state:
-            st.session_state.messages = [
-                {
-                    "role": "assistant",
-                    "content": (
-                        "Welcome to the **DarGlobal & Wasalt Real Estate Advisory**. "
-                        "I am your private AI concierge specializing in landmark branded developments and verified prime properties across "
-                        "**Dubai**, **Saudi Arabia** (Riyadh & Jeddah), **Oman**, and international capitals.\n\n"
-                        "How may I assist your acquisition strategy or property search today?"
-                    ),
-                    "properties": [],
-                }
-            ]
-
-        # Display Chat History
-        for msg in st.session_state.messages:
-            with st.chat_message(msg["role"]):
-                st.markdown(msg["content"])
-
-                # Render embedded property cards if attached
-                props = msg.get("properties", [])
-                if props:
-                    st.markdown("<div style='margin-top:12px; margin-bottom:8px; font-size:0.85rem; color:#d4af37; font-weight:600;'>✨ MATCHING PORTFOLIO ASSETS:</div>", unsafe_allow_html=True)
-                    cols = st.columns(min(len(props), 3))
-                    for i, p in enumerate(props[:3]):
-                        with cols[i]:
-                            st.markdown(render_property_card_html(p, selected_currency), unsafe_allow_html=True)
+        if "chat_history" not in st.session_state:
+            st.session_state.chat_history = []
 
         # Handle Chat Input
         user_input = st.chat_input("Inquire about projects, pricing, branded residences, or locations...")
         current_query = getattr(st.session_state, "active_query", None) or user_input
 
+        # Live top container for immediate active query execution (Latest interaction always on top)
+        live_box = st.container()
+
         if current_query:
             st.session_state.active_query = None
 
-            # Render user query
-            st.session_state.messages.append({"role": "user", "content": current_query})
-            with st.chat_message("user"):
-                st.markdown(current_query)
-
-            # RAG Retrieval
-            with st.spinner("Analyzing portfolio with Qdrant Hybrid Search..."):
-                query_vector = embedder.embed_text(current_query)
-                city_filter = selected_city if selected_city != "All Destinations" else None
-                type_filter = selected_type if selected_type != "All Types" else None
-
-                matched_records = qdrant.search(
-                    query_vector=query_vector,
-                    city=city_filter,
-                    max_price_aed=budget_cap_aed,
-                    property_type=type_filter,
-                    limit=3,
-                )
-
-            # Stream LLM Response
-            with st.chat_message("assistant"):
-                placeholder = st.empty()
-                accumulated = ""
-
-                history = [
-                    {"role": m["role"], "content": m["content"]}
-                    for m in st.session_state.messages[-4:]
-                    if m["role"] in ["user", "assistant"]
-                ]
-
-                stream = llm.stream_response(
+            # Retrieve intelligent matching assets with City & Superlative Intent routing
+            with st.spinner("Consulting Qdrant Cloud portfolio index..."):
+                matched_records = retrieve_portfolio_assets(
                     query=current_query,
-                    context_properties=matched_records,
-                    conversation_history=history,
+                    all_props=all_properties,
+                    qdrant=qdrant,
+                    embedder=embedder,
+                    selected_city=selected_city,
+                    selected_type=selected_type,
+                    budget_cap_aed=budget_cap_aed,
                 )
 
-                for chunk in stream:
-                    accumulated += chunk
-                    placeholder.markdown(accumulated + "▌")
+            # Build chronological conversation context for LLM memory (last 3 turns)
+            llm_history = []
+            for past_turn in reversed(st.session_state.chat_history[:3]):
+                llm_history.append({"role": "user", "content": past_turn["user"]})
+                llm_history.append({"role": "assistant", "content": past_turn["assistant"]})
 
-                placeholder.markdown(accumulated)
+            # Stream LLM Response at the TOP of the view
+            with live_box:
+                with st.chat_message("user"):
+                    st.markdown(current_query)
 
-                # Show property cards
-                if matched_records:
+                with st.chat_message("assistant"):
+                    chunk_holder = st.empty()
+                    accumulated = ""
+                    stream = llm.stream_response(
+                        query=current_query,
+                        context_properties=matched_records,
+                        conversation_history=llm_history,
+                    )
+                    for chunk in stream:
+                        accumulated += chunk
+                        chunk_holder.markdown(accumulated + "▌")
+                    chunk_holder.markdown(accumulated)
+
+                    if matched_records:
+                        st.markdown("<div style='margin-top:12px; margin-bottom:8px; font-size:0.85rem; color:#d4af37; font-weight:600;'>✨ MATCHING PORTFOLIO ASSETS:</div>", unsafe_allow_html=True)
+                        num_cols = min(len(matched_records), 3)
+                        cols = st.columns(num_cols)
+                        for i, p in enumerate(matched_records):
+                            with cols[i % num_cols]:
+                                st.markdown(render_property_card_html(p, selected_currency), unsafe_allow_html=True)
+
+            # Prepend active turn to the front of history so it permanently stays at the top!
+            st.session_state.chat_history.insert(
+                0,
+                {
+                    "user": current_query,
+                    "assistant": accumulated,
+                    "properties": matched_records,
+                },
+            )
+
+        # Render Previous Conversation Turns (Newest on Top)
+        start_idx = 1 if current_query else 0
+        for turn in st.session_state.chat_history[start_idx:]:
+            st.markdown("<div class='gold-divider' style='margin:18px 0;'></div>", unsafe_allow_html=True)
+            with st.chat_message("user"):
+                st.markdown(turn["user"])
+            with st.chat_message("assistant"):
+                st.markdown(turn["assistant"])
+                turn_props = turn.get("properties", [])
+                if turn_props:
                     st.markdown("<div style='margin-top:12px; margin-bottom:8px; font-size:0.85rem; color:#d4af37; font-weight:600;'>✨ MATCHING PORTFOLIO ASSETS:</div>", unsafe_allow_html=True)
-                    cols = st.columns(min(len(matched_records), 3))
-                    for i, p in enumerate(matched_records[:3]):
-                        with cols[i]:
+                    num_cols = min(len(turn_props), 3)
+                    cols = st.columns(num_cols)
+                    for i, p in enumerate(turn_props):
+                        with cols[i % num_cols]:
                             st.markdown(render_property_card_html(p, selected_currency), unsafe_allow_html=True)
 
-            st.session_state.messages.append(
-                {
-                    "role": "assistant",
-                    "content": accumulated,
-                    "properties": matched_records,
-                }
-            )
+        # Welcome Greeting (Shown when no chat history exists yet)
+        if not st.session_state.chat_history and not current_query:
+            with st.chat_message("assistant"):
+                st.markdown(
+                    "Welcome to the **DarGlobal & Wasalt Real Estate Advisory**. "
+                    "I am your private AI concierge specializing in landmark branded developments and verified prime properties across "
+                    "**Dubai**, **Saudi Arabia** (Riyadh & Jeddah), **Oman**, and international capitals.\n\n"
+                    "How may I assist your acquisition strategy or property search today?"
+                )
 
     with col_chat_side:
         st.markdown(
