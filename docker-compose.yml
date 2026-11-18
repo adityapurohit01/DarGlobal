@@ -1,0 +1,15 @@
+services:
+  concierge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: darglobal_concierge
+    ports:
+      - "7860:7860"
+    environment:
+      - PORT=7860
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - QDRANT_API_KEY=${QDRANT_API_KEY}
+      - QDRANT_URL=${QDRANT_URL}
+      - QDRANT_COLLECTION=${QDRANT_COLLECTION}
+    restart: unless-stopped

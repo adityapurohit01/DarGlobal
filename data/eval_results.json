@@ -1,0 +1,1150 @@
+[
+  {
+    "id": 1,
+    "category": "Dubai Flagships",
+    "question": "What is DG1 Living by DarGlobal and where is it located in Dubai?",
+    "retrieval_time_ms": 2551.5,
+    "llm_time_ms": 12370.0,
+    "total_time_ms": 14921.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "DG1",
+      "Top of the Astera",
+      "Trump International Hotel & Tower Dubai"
+    ],
+    "top_scores": [
+      0.6197,
+      0.5846,
+      0.5156
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**DG1\u202f(Living) \u2013 DarGlobal\u2019s flagship Apartment Development**\n\n| Detail | Information |\n|---|---|\n| **Official Project Name & Developer** | **DG1** (often marketed as *DG1 Living*) \u2013 **DarGlobal** |\n| **Location in Dubai** | **Business Bay**, Dubai, United Arab Emirates |\n| **Starting Price** | **AED\u202f1,720,000** (original listing) \u2013 SAR / USD equivalents are available upon request from the project page |\n| **Bedrooms** | **1** |\n| **Handover / Completion Date** | **December\u202f2027** |\n| **Key Lifestyle Amenities** | \u2022 Dubai Canal views<br>\u2022 Sky lounge<br>\u2022 Infinity pool<br>\u2022 State\u2011of\u2011the\u2011art gym<br>\u2022 Co\u2011branded design with **Gensler Architects** |\n| **Project Highlights** | Exclusive Apartments development, scheduled for completion in December\u202f2027, featuring premium finishes and high\u2011end public spaces. |\n| **Direct View of Official Project Page** | [View Official Project \u2013 DG1](https://darglobal.co.uk/dg1) |\n\n**In summary:**  \nDG1\u202f(Living) is a luxury apartment complex launched by DarGlobal, thoughtfully designed by Gensler Architects and positioned in Dubai\u2019s vibrant Business Bay district. It offers a single\u2011bedroom unit at a starting price of AED\u202f1,720,000, with handover expected in December\u202f2027, and boasts canal vistas, a sky lounge, an infinity pool, and a cutting\u2011edge gym.\n\n*If you\u2019d like a more detailed brochure or wish to discuss availability, please use the \u201cRequest Private Viewing\u201d sidebar form.*"
+  },
+  {
+    "id": 2,
+    "category": "Dubai Flagships",
+    "question": "Tell me about Da Vinci Tower with interiors by Pagani. What is the starting price?",
+    "retrieval_time_ms": 582.8,
+    "llm_time_ms": 3273.8,
+    "total_time_ms": 3856.6,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Da Vinci Tower, Interiors By Pagani",
+      "The Pagani Penthouse",
+      "Trump Tower Jeddah"
+    ],
+    "top_scores": [
+      0.6813,
+      0.4987,
+      0.4056
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**Da Vinci Tower, Interiors By Pagani**  \n*Developer: DarGlobal*\n\nDa Vinci Tower is an exclusive residential development located in **Downtown Dubai Canal, Dubai, United Arab Emirates**. Co-branded and designed in collaboration with **Pagani Automobili**, the tower brings the hypercar manufacturer\u2019s signature design language into luxury apartment living.\n\n**Starting Price:**  \n**AED 5,800,000**\n\n**Key Details:**\n- **Bedrooms:** 2-bedroom apartments\n- **Handover Date:** December 2025\n- **Branding:** Pagani Automobili interiors\n\n**Lifestyle Amenities:**\n- Pagani hypercar design accents throughout\n- Dubai Canal views\n- Private cinema\n- Luxury spa\n\nYou can view the official project page here:  \n[View Official Project](https://darglobal.co.uk/davinci-tower-by-pagani)\n\nShould you wish to receive the official brochure or arrange a private viewing, please use the 'Request Private Viewing' sidebar form, and a dedicated client advisor will be in touch."
+  },
+  {
+    "id": 3,
+    "category": "Dubai Flagships",
+    "question": "Are there any villas available in Dubai developed by DarGlobal?",
+    "retrieval_time_ms": 491.0,
+    "llm_time_ms": 3233.6,
+    "total_time_ms": 3724.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Top of the Astera",
+      "Trump International Simaisma, Qatar",
+      "DarGlobal Mansions Interiors by Fendi Casa"
+    ],
+    "top_scores": [
+      0.6985,
+      0.6923,
+      0.69
+    ],
+    "entity_recalled": false,
+    "filter_valid": true,
+    "answer": "I\u2019m sorry, but the current DarGlobal portfolio does not include any villa offerings located in Dubai. The only villa\u2011type projects listed are:\n\n- **Trump International Simaisma** \u2013 Villas in Simaisma, Qatar  \n- **DarGlobal Mansions Interiors by Fendi Casa** \u2013 Villas in Wadi Safar, Riyadh, Saudi Arabia  \n\nIf you would like to explore other DarGlobal properties (apartments, villas, or mixed\u2011use developments) in Dubai or elsewhere, I can connect you with a private client advisor who can provide the latest brochure and schedule a personalized viewing. Please let me know how you\u2019d like to proceed."
+  },
+  {
+    "id": 4,
+    "category": "Dubai Flagships",
+    "question": "What are the key features of W Residences Downtown Dubai?",
+    "retrieval_time_ms": 507.8,
+    "llm_time_ms": 14071.6,
+    "total_time_ms": 14579.4,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "W Residences",
+      "The Pagani Penthouse",
+      "Urban Oasis by Missoni"
+    ],
+    "top_scores": [
+      0.5475,
+      0.4818,
+      0.4676
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Based on the official property details, the key features of **W Residences Downtown Dubai** are as follows:\n\n*   **Developer & Branding:** Developed by **DarGlobal**, featuring co-branded and bespoke interior designs in partnership with **W Hotels Worldwide**.\n*   **Prime Location:** Situated in the heart of **Downtown Dubai**, offering iconic **Burj Khalifa views**.\n*   **Property Type & Configuration:** Luxury apartments with configurations starting from **1 bedroom**.\n*   **Starting Price:** Begins at **2,800,000 AED**.\n*   **Expected Completion/Handover:** Scheduled for handover in **September 2026**.\n*   **Signature Luxury Amenities:**\n    *   The world-renowned **W 'Whatever/Whenever' concierge service**.\n    *   Access to a private **Clubhouse**.\n    *   A stunning **Infinity pool** with spectacular city vistas.\n\nYou can view the official project page and explore more details here: [View Official Project](https://darglobal.co.uk/w-residences). \n\nShould you wish to discuss purchasing opportunities or arrange a private viewing, please let me know, and I will be delighted to assist you further!"
+  },
+  {
+    "id": 5,
+    "category": "Dubai Flagships",
+    "question": "Can I buy a Trump-branded residence in Dubai through DarGlobal?",
+    "retrieval_time_ms": 567.1,
+    "llm_time_ms": 2816.8,
+    "total_time_ms": 3383.9,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Trump International Hotel & Tower Dubai",
+      "Trump Mansions",
+      "Trump Executive Residences"
+    ],
+    "top_scores": [
+      0.7462,
+      0.6709,
+      0.6536
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Yes, you can acquire a Trump-branded residence in Dubai through DarGlobal. The following development is currently available:\n\n**Trump International Hotel & Tower Dubai**\n- **Developer:** DarGlobal (co-branded with The Trump Organization)\n- **Location:** Dubai, United Arab Emirates (Palm Jumeirah / Downtown)\n- **Type:** Apartments\n- **Starting Price:** 4,500,000 AED\n- **Bedrooms:** 2\n- **Handover Date:** December 2031\n- **Key Lifestyle Amenities:** Infinity pool, golf course view, private lounge, and Trump hotel concierge services\n\n[View Official Project](https://darglobal.co.uk/trump-international-hotel-and-tower-dubai)\n\nShould you wish to proceed, I invite you to complete the **'Request Private Viewing'** sidebar form. Our private client advisors will provide you with the official brochure, detailed floor plans, and personalized purchasing guidance.\n\nPlease let me know if you would like information on other Trump-branded residences in Riyadh or Jeddah as well."
+  },
+  {
+    "id": 6,
+    "category": "Dubai Flagships",
+    "question": "What is The Pagani Penthouse and what luxury amenities does it offer?",
+    "retrieval_time_ms": 500.0,
+    "llm_time_ms": 16013.3,
+    "total_time_ms": 16513.3,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "The Pagani Penthouse",
+      "Da Vinci Tower, Interiors By Pagani",
+      "Tierra Viva, Design inspired by Automobili Lamborghini"
+    ],
+    "top_scores": [
+      0.7068,
+      0.6237,
+      0.4907
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Based on the provided property portfolio, **The Pagani Penthouse** is an ultra-exclusive, co-branded residential development by **DarGlobal**, designed in collaboration with the legendary Italian hypercar manufacturer **Pagani Automobili**. Located in the highly sought-after Downtown Dubai Canal area, it represents the pinnacle of automotive-inspired luxury living.\n\nHere are the key details and luxury amenities offered by The Pagani Penthouse:\n\n### **Property Overview**\n* **Developer:** DarGlobal\n* **Location:** Downtown Dubai Canal, Dubai, United Arab Emirates\n* **Type:** Luxury Apartments (Penthouse configuration)\n* **Bedrooms:** 4 Bedrooms\n* **Starting Price:** From 28,000,000 AED\n* **Expected Completion (Handover):** Q4 2026\n\n### **Key Luxury Amenities**\n* **Custom Pagani Materials:** Exquisite interior finishes and materials curated directly from the Pagani design philosophy, blending avant-garde engineering with high-end interior architecture.\n* **Private Rooftop Pool:** A private, exclusive rooftop swimming pool offering a secluded oasis high above the city.\n* **360-Degree Skyline Views:** Breathtaking, unobstructed panoramic views of the Dubai skyline and the surrounding Downtown Dubai Canal district.\n\nTo explore official brochheets, floor plans, and exact availability, you can view the official project page here: \n[View Official Project](https://darglobal.co.uk/one-of-one/project-pagani)\n\nIf you would like to discuss purchasing opportunities or arranging a private viewing, please let me know, and I will connect you with a dedicated private client advisor."
+  },
+  {
+    "id": 7,
+    "category": "Dubai Flagships",
+    "question": "Tell me about Urban Oasis by Missoni in Business Bay. Is it completed?",
+    "retrieval_time_ms": 622.7,
+    "llm_time_ms": 5359.5,
+    "total_time_ms": 5982.2,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Urban Oasis by Missoni",
+      "DG1",
+      "The Astera, Interiors by Aston Martin"
+    ],
+    "top_scores": [
+      0.527,
+      0.3534,
+      0.3496
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**Urban Oasis by Missoni** \u2013\u202fDarGlobal  \n- **Location:** Business Bay, Dubai, United Arab Emirates  \n- **Property Type:** Apartments (1\u202fbedroom)  \n- **Starting Price:**\u202f1,850,000\u202fAED (\u2248\u202fSAR\u202f530,000 /\u202fUSD\u202f560,000)  \n- **Handover / Completion:**\u202fCompleted (ready for immediate occupancy)  \n- **Key Lifestyle Amenities:**  \n  \u2022 Missoni home d\u00e9cor and branding  \n  \u2022 Direct access to the canal promenade  \n  \u2022 Infinity pool with panoramic views  \n  \u2022 Fully\u2011equipped fitness club  \n\nYou can view the official project page here: **[View Official Project](https://darglobal.co.uk/urban-oasis-by-missoni)**  \n\nIf you\u2019d like to arrange a private viewing or receive the detailed brochure, please use the \u201cRequest Private Viewing\u201d form in the sidebar."
+  },
+  {
+    "id": 8,
+    "category": "Dubai Flagships",
+    "question": "What is the handover date for DG1 Living in Dubai?",
+    "retrieval_time_ms": 583.3,
+    "llm_time_ms": 2058.9,
+    "total_time_ms": 2642.1,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "DG1",
+      "Top of the Astera",
+      "\u0639\u0645\u0627\u0631\u0629 \u0633\u0643\u0646\u064a\u0629 \u062a\u062c\u0627\u0631\u064a\u0629 3.328\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0631\u0633\u0644\u0627\u062a"
+    ],
+    "top_scores": [
+      0.4581,
+      0.4346,
+      0.4325
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "The DG1 development in Dubai is scheduled for handover in **December\u202f2027**."
+  },
+  {
+    "id": 9,
+    "category": "Dubai Flagships",
+    "question": "What views does DG1 Living offer in Business Bay?",
+    "retrieval_time_ms": 503.0,
+    "llm_time_ms": 6963.3,
+    "total_time_ms": 7466.2,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "DG1",
+      "W Residences",
+      "Trump International Hotel & Tower Dubai"
+    ],
+    "top_scores": [
+      0.3752,
+      0.2738,
+      0.2575
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Regarding **DG1** in **Business Bay**, the provided portfolio details list the signature view as:\n\n- **Dubai Canal views**\n\nThe development is by **DarGlobal**, designed with **Gensler Architects**, and offers **1-bedroom apartments** with handover scheduled for **December 2027**. Key amenities include a **sky lounge, infinity pool, and state-of-the-art gym**.\n\nThe context does not list additional or alternative view specifications for DG1 beyond the **Dubai Canal views**. If you are seeking specific unit orientations or higher-floor views, I would recommend connecting with a private client advisor for confirmation.\n\nFor full details: [View Official Project](<https://darglobal.co.uk/dg1>)"
+  },
+  {
+    "id": 10,
+    "category": "Dubai Flagships",
+    "question": "Which DarGlobal properties in Dubai are located directly on the Dubai Water Canal?",
+    "retrieval_time_ms": 572.7,
+    "llm_time_ms": 17611.6,
+    "total_time_ms": 18184.3,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "DG1",
+      "Urban Oasis by Missoni",
+      "Top of the Astera"
+    ],
+    "top_scores": [
+      0.5202,
+      0.5153,
+      0.4938
+    ],
+    "entity_recalled": false,
+    "filter_valid": true,
+    "answer": "Based on the provided property portfolio, there are two premier DarGlobal developments located in Dubai (specifically in the Business Bay district) that offer direct access and views of the Dubai Water Canal. \n\nHere are the details for the top matching properties:\n\n### 1. DG1\n*   **Developer:** DarGlobal (co-branded with Gensler Architects)\n*   **Location:** Dubai, United Arab Emirates (Business Bay)\n*   **Starting Price:** 1,720,000 AED\n*   **Bedrooms:** 1 Bedroom\n*   **Handover Date:** December 2027\n*   **Key Lifestyle Amenities:** Direct Dubai Canal views, Sky lounge, Infinity pool, State-of-the-art gym\n*   **Project Page:** [View Official Project](https://darglobal.co.uk/dg1)\n\n---\n\n### 2. Urban Oasis by Missoni\n*   **Developer:** DarGlobal (co-branded with Missoni)\n*   **Location:** Dubai, United Arab Emirates (Business Bay)\n*   **Starting Price:** 1,850,000 AED\n*   **Bedrooms:** 1 Bedroom\n*   **Handover Date:** Completed\n*   **Key Lifestyle Amenities:** Missoni home decor, Private Canal promenade, Infinity pool, Fitness club\n*   **Project Page:** [View Official Project](https://darglobal.co.uk/urban-oasis-by-missoni)\n\nBoth of these exclusive residences offer the sophisticated urban lifestyle characteristic of Business Bay, integrated seamlessly with the Dubai Water Canal. If you would like to explore floor plans, exact availability, or arrange a private viewing, please let me know or use the 'Request Private Viewing' form to receive the official brochures directly."
+  },
+  {
+    "id": 11,
+    "category": "Regional & International",
+    "question": "What is the AIDA project in Oman developed by DarGlobal?",
+    "retrieval_time_ms": 588.3,
+    "llm_time_ms": 3736.5,
+    "total_time_ms": 4324.8,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Aida",
+      "Nickelodeon Hotels & Resorts",
+      "The Great Escape"
+    ],
+    "top_scores": [
+      0.6424,
+      0.5841,
+      0.5586
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "AIDA is DarGlobal's flagship residential destination in Muscat, Oman, comprising a collection of exclusive apartment developments. Here is the portfolio currently associated with AIDA:\n\nAida\n- Developer: DarGlobal\n- Location: Muscat, Oman\n- Type: Apartments\n- Starting Price: 2,500,000 AED\n- Handover: Q4 2026\n- Key Amenities: Luxury finishes, 24/7 Concierge, Swimming pool\n- [View Official Project](https://darglobal.co.uk/landing-page/aida)\n\nNickelodeon Hotels & Resorts\n- Developer: DarGlobal\n- Location: AIDA, Muscat, Oman\n- Type: Apartments\n- Starting Price: 2,500,000 AED\n- Handover: Q4 2026\n- Key Amenities: Luxury finishes, 24/7 Concierge, Swimming pool\n- [View Official Project](https://darglobal.co.uk/play-project/nickelodeon)\n\nThe Great Escape\n- Developer: DarGlobal\n- Location: Aida, Muscat, Oman\n- Type: Apartments\n- Starting Price: 2,500,000 AED\n- Handover: June 2029\n- Key Amenities: Luxury finishes, 24/7 Concierge, Swimming pool\n- [View Official Project](https://darglobal.co.uk/the-great-escape-1-aida-oman)\n\nIn summary, AIDA is a premium, master-planned community in Muscat offering luxury apartments from 2,500,000 AED, with residences delivered across two phases \u2014 Q4 2026 and June 2029 \u2014 all featuring branded luxury finishes, round-the-clock concierge service, and resort-style swimming pool amenities.\n\nShould you wish to explore specific unit types, floor plans, or payment structures, these details are not listed in the material I have available. I would be delighted to connect you with a private client advisor. To receive the official brochure and arrange a tailored consultation, please complete the 'Request Private Viewing' form in the sidebar."
+  },
+  {
+    "id": 12,
+    "category": "Regional & International",
+    "question": "Are there Trump villas available in Oman?",
+    "retrieval_time_ms": 494.6,
+    "llm_time_ms": 7602.2,
+    "total_time_ms": 8096.9,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Trump Golf Villas",
+      "Trump Cliff Villas",
+      "Trump International Hotel, Oman"
+    ],
+    "top_scores": [
+      0.7347,
+      0.7121,
+      0.6534
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Yes \u2014 within the current DarGlobal portfolio, there are two Trump-branded villa collections in **Muscat, Oman**, both located at **AIDA, Muscat** and scheduled for handover in **December 2028**.\n\n### 1. Trump Golf Villas\n- **Developer:** DarGlobal  \n- **Branding:** Trump Organization  \n- **Location:** AIDA, Muscat, Oman  \n- **Starting Price:** **AED 4,200,000**  \n- **Bedrooms:** 4  \n- **Handover:** December 2028  \n- **Key Amenities:** Fairway views, Trump clubhouse privileges, private garden  \n- **Project Page:** [View Official Project](https://darglobal.co.uk/aida-trump-villas)\n\n### 2. Trump Cliff Villas\n- **Developer:** DarGlobal  \n- **Branding:** Trump Organization  \n- **Location:** AIDA, Muscat, Oman  \n- **Starting Price:** **AED 8,500,000**  \n- **Bedrooms:** 5  \n- **Handover:** December 2028  \n- **Key Amenities:** Direct cliff-edge sea views, private infinity pool, access to Trump golf course  \n- **Project Page:** [View Official Project](https://darglobal.co.uk/aida-trump-international-cliff-villas)\n\nThere is also **Trump International Hotel, Oman** in Muscat, with hotel rooms from **AED 2,500,000**, also slated for December 2028 \u2014 though this is a hotel-room offering rather than a villa.\n\nFor specific villa availability, plot selection, and the official brochure, I recommend submitting the **\u2018Request Private Viewing\u2019** form in the sidebar so a private client advisor can assist you directly."
+  },
+  {
+    "id": 13,
+    "category": "Regional & International",
+    "question": "Does DarGlobal have projects in Saudi Arabia?",
+    "retrieval_time_ms": 582.7,
+    "llm_time_ms": 17559.3,
+    "total_time_ms": 18142.0,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Trump Park Residences",
+      "Trump Executive Residences",
+      "Padel Living Residences"
+    ],
+    "top_scores": [
+      0.6227,
+      0.6157,
+      0.5899
+    ],
+    "entity_recalled": false,
+    "filter_valid": true,
+    "answer": "Yes, absolutely. DarGlobal has a significant and prestigious portfolio of projects in Saudi Arabia, specifically in the vibrant city of Jeddah. \n\nBased on our current listings, here are the exclusive developments we have available in the Kingdom:\n\n*   **Trump Park Residences** (Apartments)\n    *   **Location:** Amaya, Jeddah, KSA\n    *   **Starting Price:** From 2,500,000 AED\n    *   **Handover:** December 2030\n    *   **Key Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool\n    *   [View Official Project](https://darglobal.co.uk/trump-plaza/park-residences)\n\n*   **Trump Executive Residences** (Villas)\n    *   **Location:** Amaya, Jeddah, KSA\n    *   **Starting Price:** From 2,500,000 AED\n    *   **Handover:** December 2029\n    *   **Key Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool\n    *   [View Official Project](https://darglobal.co.uk/trump-plaza/executive-residences)\n\n*   **Padel Living Residences** (Apartments)\n    *   **Location:** Jeddah, KSA\n    *   **Starting Price:** From 2,500,000 AED\n    *   **Handover:** December 2029\n    *   **Key Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool\n    *   [View Official Project](https://darglobal.co.uk/amaya/padel-living)\n\nWould you like more detailed information on any of these specific projects, or are you interested in exploring other locations? I'd be delighted to assist you further."
+  },
+  {
+    "id": 14,
+    "category": "Regional & International",
+    "question": "Tell me about Tierra Viva in Spain. Which luxury brand is it partnered with?",
+    "retrieval_time_ms": 633.0,
+    "llm_time_ms": 3794.4,
+    "total_time_ms": 4427.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Tierra Viva, Design inspired by Automobili Lamborghini",
+      "Painite Villas Design Inspired by Automobili Lamborghini",
+      "Marea, Interiors by Missoni"
+    ],
+    "top_scores": [
+      0.7133,
+      0.4562,
+      0.404
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Tierra Viva is an exclusive villas development by **DarGlobal** located in **Benahav\u00eds, Spain**.\n\nThe project is partnered with **Automobili Lamborghini**, with its design inspired by the iconic Italian luxury automotive brand.\n\n**Key Details:**\n- **Developer:** DarGlobal  \n- **Location:** Benahav\u00eds, Spain  \n- **Property Type:** Villas  \n- **Starting Price:** 2,500,000 AED  \n- **Handover Date:** June 2028  \n- **Key Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool  \n\nYou can explore the official project page here: [View Official Project](https://darglobal.co.uk/tierra-viva)\n\nShould you wish to receive the official brochure or arrange a private viewing, I invite you to complete the 'Request Private Viewing' sidebar form, and a dedicated client advisor will be in touch."
+  },
+  {
+    "id": 15,
+    "category": "Regional & International",
+    "question": "What is Marea in Spain and who designed the interiors?",
+    "retrieval_time_ms": 487.8,
+    "llm_time_ms": 11636.5,
+    "total_time_ms": 12124.4,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Marea, Interiors by Missoni",
+      "Tierra Viva, Design inspired by Automobili Lamborghini",
+      "Painite Villas Design Inspired by Automobili Lamborghini"
+    ],
+    "top_scores": [
+      0.55,
+      0.4245,
+      0.3834
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Marea is an exclusive luxury apartment development located in Cortesin, Spain, masterfully developed by **DarGlobal**. The interiors of this prestigious property are beautifully designed by the renowned Italian fashion house **Missoni**. \n\nHere are the key highlights of the Marea development based on our portfolio:\n\n*   **Developer:** DarGlobal\n*   **Property Type:** Luxury Apartments\n*   **Location:** Cortesin, Spain\n*   **Starting Price:** From 2,500,000 AED\n*   **Handover Date:** December 2027\n*   **Key Amenities:** Luxury finishes, 24/7 concierge service, and a private swimming pool.\n\nYou can view the official project details and current listings here: [View Official Project](https://darglobal.co.uk/marea). \n\nShould you wish to discuss investment opportunities or arrange a private viewing, please let me know how I may assist you further."
+  },
+  {
+    "id": 16,
+    "category": "Regional & International",
+    "question": "What development does DarGlobal have in Qatar?",
+    "retrieval_time_ms": 559.2,
+    "llm_time_ms": 2282.4,
+    "total_time_ms": 2841.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Trump International Simaisma, Qatar",
+      "Les Vagues by Elie Saab",
+      "Top of the Astera"
+    ],
+    "top_scores": [
+      0.6234,
+      0.5839,
+      0.5308
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Based on the available developments, DarGlobal currently has two prestigious projects in Qatar:\n\n## **Trump International Simaisma, Qatar**\n- **Developer:** DarGlobal\n- **Location:** Simaisma, Qatar\n- **Property Type:** Luxury Villas\n- **Starting Price:** 2,500,000 AED\n- **Handover Date:** Q4 2026\n- **Key Lifestyle Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool\n- **View Official Project:** [View Official Project](https://darglobal.co.uk/lp/trump-international-qatar)\n\n## **Les Vagues by Elie Saab**\n- **Developer:** DarGlobal\n- **Location:** Doha, Qatar\n- **Property Type:** Luxury Apartments\n- **Starting Price:** 2,500,000 AED\n- **Handover Date:** December 2027\n- **Key Lifestyle Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool\n- **View Official Project:** [View Official Project](https://darglobal.co.uk/les-vagues)\n\nBoth developments represent DarGlobal's commitment to delivering exceptional luxury properties in Qatar, featuring premium amenities and sophisticated design. The Trump International Simaisma offers exclusive villa living with private outdoor spaces, while Les Vagues by Elie Saab provides sophisticated apartment living in the heart of Doha.\n\nWould you like more detailed information about either of these developments, or would you like assistance with arranging a private viewing?"
+  },
+  {
+    "id": 17,
+    "category": "Regional & International",
+    "question": "What is The Astera on Al Marjan Island and who designed it?",
+    "retrieval_time_ms": 493.1,
+    "llm_time_ms": 13067.0,
+    "total_time_ms": 13560.1,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "The Astera, Interiors by Aston Martin",
+      "Top of the Astera",
+      "Land 288 SQM Facing South on 15m Width Street"
+    ],
+    "top_scores": [
+      0.4733,
+      0.4707,
+      0.3939
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Based on the provided luxury property portfolio, **The Astera** is an exclusive, high-end residential apartment development located on **Al Marjan Island in Ras Al Khaimah (RAK), UAE**, developed by **DarGlobal**. \n\nHere are the key details regarding its design and offering:\n\n*   **The Design Partnership:** The development features a prestigious collaboration with the legendary British luxury car manufacturer **Aston Martin**, showcasing **Aston Martin bespoke interiors** throughout the apartments.\n*   **Property Type:** Luxury waterfront apartments offering private beach access, a waterfront infinity pool, and meticulously crafted living spaces.\n*   **Pricing & Availability:** \n    *   The main development (The Astera) starts at **1,950,000 AED** (1-bedroom units, scheduled for handover in December 2028).\n    *   There is also a premium tier called **\"Top of the Astera\"** starting at **2,500,000 AED**, offering luxury finishes, 24/7 concierge, and a swimming pool, with an earlier handover in **Q4 2026**.\n\nIf you would like to explore floor plans, specific pricing for the Aston Martin-designed suites, or discuss purchasing options, please let me know, or you can view the official project page here: **[View Official Project - The Astera](https://darglobal.co.uk/the-astera)**."
+  },
+  {
+    "id": 18,
+    "category": "Regional & International",
+    "question": "What are the Marriott Residences in AIDA Oman?",
+    "retrieval_time_ms": 566.1,
+    "llm_time_ms": 19044.6,
+    "total_time_ms": 19610.7,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Marriott Residences",
+      "Sunrise Haven",
+      "Nickelodeon Hotels & Resorts"
+    ],
+    "top_scores": [
+      0.7303,
+      0.6266,
+      0.6143
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Thank you for your enquiry. It is a pleasure to introduce **Marriott Residences**, one of the signature residential offerings within the AIDA master community in Muscat, Sultanate of Oman, delivered by **DarGlobal**.\n\n**Marriott Residences by DarGlobal**\n\n- **Developer:** DarGlobal\n- **Location:** AIDA, Muscat, Oman\n- **Property Type:** Apartments\n- **Starting Price:** AED 2,500,000\n- **Handover / Completion:** September 2029\n- **Key Lifestyle Amenities:** Luxury finishes, 24/7 Concierge service, Swimming pool\n\n**[View Official Project](https://darglobal.co.uk/marriott-residences-aida-oman)**\n\nA few notes for your consideration:\n\n- The bedroom configurations and unit mix for this development are not currently listed in our portfolio brief. I would recommend connecting with a private client advisor to receive the official floor plans, unit sizes, and payment schedule.\n- Should you wish to compare options within the same AIDA destination, DarGlobal also offers **Sunrise Haven** (luxury villas, handover December 2027) and **Nickelodeon Hotels & Resorts** (apartments, handover Q4 2026), both with a starting price of AED 2,500,000.\n\nIf you would like to proceed, please complete the **'Request Private Viewing'** form in the sidebar, and our team will arrange the official brochure and a private consultation at your convenience."
+  },
+  {
+    "id": 19,
+    "category": "Regional & International",
+    "question": "Does DarGlobal have any developments in the United Kingdom?",
+    "retrieval_time_ms": 564.2,
+    "llm_time_ms": 11038.8,
+    "total_time_ms": 11603.0,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "The Mulliner",
+      "7&8 Albert Hall Mansions",
+      "Top of the Astera"
+    ],
+    "top_scores": [
+      0.4773,
+      0.4709,
+      0.4135
+    ],
+    "entity_recalled": false,
+    "filter_valid": true,
+    "answer": "Absolutely\u2014DarGlobal does have two distinguished developments in the United Kingdom.\n\n| Project | Developer | Location (City, District, Landmarks) | Starting Price (AED) | Bedrooms | Handover / Completion | Key Lifestyle Amenities | Official Page |\n|---------|-----------|--------------------------------------|----------------------|----------|-----------------------|--------------------------|---------------|\n| **The Mulliner** | DarGlobal | London \u2013 149\u202fOld\u202fPark\u202fLane, United Kingdom | **2,500,000\u202fAED** | *Not specified* | **Q4\u202f2026** | Luxury finishes, 24/7 Concierge, Swimming pool | [View Official Project](https://darglobal.co.uk/the-mulliner) |\n| **7&8 Albert Hall Mansions** | DarGlobal | London \u2013 Overlooking Hyde\u202fPark, United Kingdom | **2,500,000\u202fAED** | *Not specified* | **Q4\u202f2026** | Luxury finishes, 24/7 Concierge, Swimming pool | [View Official Project](https://darglobal.co.uk/one-of-one/THE-ALBERT-HALL-MANSION) |\n\nBoth projects are exclusive apartment collections scheduled for hand\u2011over in the fourth quarter of\u202f2026 and are priced from 2.5\u202fmillion\u202fAED. They feature the hallmark DarGlobal lifestyle package: high\u2011end interior finishes, a dedicated 24\u2011hour concierge service, and a swimming\u2011pool amenity.\n\nIf you would like to explore these properties in more detail, receive the official brochure, or arrange a private viewing, please use the **\u2018Request Private Viewing\u2019** sidebar form. I\u2019ll ensure you are connected with a senior client advisor who can guide you through the next steps."
+  },
+  {
+    "id": 20,
+    "category": "Regional & International",
+    "question": "Tell me about Trump Tower Jeddah. What are its highlights?",
+    "retrieval_time_ms": 636.8,
+    "llm_time_ms": 3043.4,
+    "total_time_ms": 3680.2,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Trump Tower Jeddah",
+      "Trump Park Residences",
+      "Trump Executive Residences"
+    ],
+    "top_scores": [
+      0.6205,
+      0.5039,
+      0.49
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Trump Tower Jeddah is one of DarGlobal's signature branded residences, and a compelling choice for those seeking an address of distinction on Saudi Arabia's Red Sea coast. Here are the highlights:\n\nTrump Tower Jeddah\n- Developer: DarGlobal, co-branded and designed with the Trump Organization\n- Location: Corniche, Jeddah, Saudi Arabia\n- Type: Apartments\n- Starting Price: 3,500,000 AED\n- Bedrooms: 2\n- Handover: December 2029\n\nKey Lifestyle Amenities\n- Red Sea panorama \u2014 sweeping coastal views along the Jeddah Corniche\n- Luxury hotel services \u2014 the hallmark of a fully branded, serviced residence\n- Private elevator \u2014 discreet, direct access befitting a residence of this caliber\n\nThe combination of Trump Organization branding, hotel-grade service, and a prime Corniche setting positions this as a trophy asset within Jeddah's luxury market.\n\n[View Official Project](https://darglobal.co.uk/trump-tower-jeddah)\n\nIf you'd like to explore this residence further, I'd encourage you to complete the 'Request Private Viewing' form in the sidebar, and our team will arrange the official brochure and a private consultation. Should you wish to compare it against Trump Park Residences or Trump Executive Residences, also in Jeddah, I'd be glad to prepare a side-by-side overview."
+  },
+  {
+    "id": 21,
+    "category": "Wasalt Marketplace",
+    "question": "What properties are listed on Wasalt in Riyadh?",
+    "retrieval_time_ms": 431.3,
+    "llm_time_ms": 8482.8,
+    "total_time_ms": 8914.1,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Shams Al Riyadh ",
+      "Land 700 SQM Facing North West on 30m Width Street",
+      "\u0639\u0645\u0627\u0631\u0629 \u0633\u0643\u0646\u064a\u0629 \u062a\u062c\u0627\u0631\u064a\u0629 3.328\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0631\u0633\u0644\u0627\u062a"
+    ],
+    "top_scores": [
+      0.6916,
+      0.6681,
+      0.6624
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Welcome. As your Senior Luxury Real Estate Concierge for DarGlobal & Wasalt, I have reviewed the current Wasalt-verified inventory in Riyadh, Saudi Arabia. Below are the three properties presently listed in the capital.\n\n---\n\n### 1. Shams Al Riyadh\n**Developer:** Wasalt Verified Partner  \n**Type:** Villa  \n**Location:** Riyadh \u2013 Al Rihab, Saudi Arabia  \n**Price:** 2,352,000 AED (Original: 2,400,000 SAR)  \n**Handover / Completion:** Ready  \n**Plot Area:** 300 \u2013 13,504.53 SQM  \n**Key Amenities:** Al Rihab Community setting  \n[View Official Project](https://wasalt.sa/en/property/shams-al-riyadh-100325)\n\n---\n\n### 2. Land 700 SQM Facing North West on 30m Width Street\n**Developer:** Wasalt Verified Partner  \n**Type:** Land  \n**Location:** Riyadh \u2013 As-Saadah, Saudi Arabia  \n**Price:** 3,018,400 AED (Original: 3,080,000 SAR)  \n**Handover / Completion:** Ready  \n**Plot Area:** 700 SQM  \n**Key Amenities:** North West-facing plot on a 30m width street; As-Saadah Community  \n[View Official Project](https://wasalt.sa/en/property/land-700-sqm-facing-north-west-on-30m-width-street-5970217)\n\n---\n\n### 3. \u0639\u0645\u0627\u0631\u0629 \u0633\u0643\u0646\u064a\u0629 \u062a\u062c\u0627\u0631\u064a\u0629 3.328\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0631\u0633\u0644\u0627\u062a  \n*(Residential-Commercial Building, 3,328m\u00b2 in Al-Mursalat)*\n**Developer:** Wasalt Verified Partner  \n**Type:** Building  \n**Location:** Riyadh \u2013 Al-Mursalat, Saudi Arabia  \n**Price:** Not listed in current context  \n**Handover / Completion:** Ready  \n**Plot Area:** 3,328 SQM  \n**Key Amenities:** Al-Mursalat Community  \n[View Official Project](https://wasalt.sa/en/property/undefined-5967919)\n\n> **Note:** The asking price for the Al-Mursalat building is not disclosed in the available listing data. I recommend connecting with a private client advisor to obtain official pricing and a detailed brochure.\n\n---\n\n**Bedroom configurations** are not specified in the current listing data for these assets. For unit-specific layouts, availability, or to schedule a private tour, please use the **'Request Private Viewing'** sidebar form, and my team will deliver the official brochure and coordinate a discreet viewing at your convenience."
+  },
+  {
+    "id": 22,
+    "category": "Wasalt Marketplace",
+    "question": "Find me villas for sale in Riyadh through Wasalt.",
+    "retrieval_time_ms": 588.1,
+    "llm_time_ms": 15000.5,
+    "total_time_ms": 15588.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639",
+      "\u0645\u0634\u0631\u0648\u0639 \u0639\u064a\u0646 \u0623\u0633\u0633 - \u0634\u0642\u0642 \u0644\u0644\u0628\u064a\u0639",
+      "Villa 228 SQM Facing East on 12m Width Street"
+    ],
+    "top_scores": [
+      0.7219,
+      0.715,
+      0.711
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Below are the current **Wasalt\u2011verified villa listings** that match your request for villas for sale in **Riyadh**. Each entry includes the official project name, developer, location, price, bedroom count, handover status, key amenities, and a direct link to the project page.\n\n---\n\n### 1\ufe0f\u20e3 \u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639  \n- **Developer:** Wasalt Verified Partner  \n- **Location:** Riyadh, Saudi Arabia \u2013 Al\u2011Faruq district  \n- **Property Type:** Villa  \n- **Bedrooms:** 2  \n- **Handover / Completion:** Ready  \n- **Starting Price:** **735,000\u202fAED** (Original\u202f750,000\u202fSAR)  \n- **Key Amenities:** 2\u2011bedroom villa within the Al\u2011Faruq community  \n- **Project Page:** [View Official Project](https://wasalt.sa/en/property/mshrwa-sth-amyal-adwar-llbya-100583)  \n\n---\n\n### 2\ufe0f\u20e3 \u0645\u0634\u0631\u0648\u0639 \u0639\u064a\u0646 \u0623\u0633\u0633 - \u0634\u0642\u0642 \u0644\u0644\u0628\u064a\u0639  \n- **Developer:** Wasalt Verified Partner  \n- **Location:** Riyadh, Saudi Arabia \u2013 An\u2011Nada district  \n- **Property Type:** Villa  \n- **Bedrooms:** 1  \n- **Handover / Completion:** Ready  \n- **Starting Price:** **1,298,683\u202fAED** (Original\u202f1,325,187\u202fSAR)  \n- **Key Amenities:** 1\u2011bedroom villa in the An\u2011Nada community  \n- **Project Page:** [View Official Project](https://wasalt.sa/en/property/\u0645\u0634\u0631\u0648\u0639-\u0639\u064a\u0646-\u0623\u0633\u0633-\u0634\u0642\u0642-\u0644\u0644\u0628\u064a\u0639-100585)  \n\n---\n\n### 3\ufe0f\u20e3 Villa 228\u202fSQM Facing East on 12\u202fm Width Street  \n- **Developer:** Wasalt Verified Partner  \n- **Location:** Riyadh, Saudi Arabia \u2013 Al\u2011Muhammadiyah district  \n- **Property Type:** Villa  \n- **Bedrooms:** 5  \n- **Handover / Completion:** Ready  \n- **Starting Price:** **4,596,200\u202fAED** (Original\u202f4,690,000\u202fSAR)  \n- **Key Amenities:** 5\u2011bedroom villa with 228\u202fSQM built\u2011up area, situated in the Al\u2011Muhammadiyah community  \n- **Project Page:** [View Official Project](https://wasalt.sa/en/property/villa-228-sqm-facing-east-on-12m-width-street-5935070)  \n\n---\n\nThese three properties represent the full range of **Wasalt\u2011listed villas** currently available in Riyadh. If any of them align with your preferences\u2014whether you\u2019re looking for a compact 1\u2011bedroom home, a family\u2011size 5\u2011bedroom residence, or a more modest 2\u2011bedroom option\u2014please let me know which listing(s) interest you most.\n\n**Next step:** To receive the official brochure and arrange a private viewing, simply use the **\u2018Request Private Viewing\u2019** sidebar form. I\u2019ll ensure you get the latest details and any additional information you may need."
+  },
+  {
+    "id": 23,
+    "category": "Wasalt Marketplace",
+    "question": "Are there properties available in Al-Muhammadiyah district in Riyadh?",
+    "retrieval_time_ms": 595.3,
+    "llm_time_ms": 7543.7,
+    "total_time_ms": 8139.0,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Shams Al Riyadh ",
+      "Land 288 SQM Facing South on 15m Width Street",
+      "Villa 228 SQM Facing East on 12m Width Street"
+    ],
+    "top_scores": [
+      0.5544,
+      0.5429,
+      0.5416
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Yes, there is currently one verified property available in the Al-Muhammadiyah district of Riyadh.\n\n**Villa 228 SQM Facing East on 12m Width Street**\n- **Developer:** Wasalt Verified Partner  \n- **Location:** Al-Muhammadiyah, Riyadh, Saudi Arabia  \n- **Starting Price:** 4,596,200 AED (Original: 4,690,000 SAR)  \n- **Bedrooms:** 5  \n- **Handover Date:** Ready  \n- **Key Amenities:** 228 SQM built area, East-facing orientation, 12m width street access, situated within the Al-Muhammadiyah community  \n- [View Official Project](https://wasalt.sa/en/property/villa-228-sqm-facing-east-on-12m-width-street-5935070)\n\nThis is a ready-to-move-in family villa offering spacious accommodation in an established Riyadh neighbourhood.\n\nShould you wish to explore additional off-market opportunities or arrange a private viewing, I invite you to complete the **'Request Private Viewing'** sidebar form to receive the official brochure and be connected with your dedicated client advisor."
+  },
+  {
+    "id": 24,
+    "category": "Wasalt Marketplace",
+    "question": "What is the price of the 5-bedroom villa in Al-Muhammadiyah on Wasalt?",
+    "retrieval_time_ms": 573.6,
+    "llm_time_ms": 2588.5,
+    "total_time_ms": 3162.1,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639",
+      "\u0645\u0634\u0631\u0648\u0639 \u0639\u064a\u0646 \u0623\u0633\u0633 - \u0634\u0642\u0642 \u0644\u0644\u0628\u064a\u0639",
+      "Villa 228 SQM Facing East on 12m Width Street"
+    ],
+    "top_scores": [
+      0.7684,
+      0.7654,
+      0.7545
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "The 5-bedroom villa in Al-Muhammadiyah is offered at 4,596,200 AED (4,690,000 SAR).\n\nHere are the key details:\n\n- Project Name: Villa 228 SQM Facing East on 12m Width Street\n- Developer: Wasalt Verified Partner\n- Location: Riyadh, Saudi Arabia \u2014 Al-Muhammadiyah district\n- Price: 4,596,200 AED (4,690,000 SAR)\n- Bedrooms: 5\n- Built-up Area: 228 SQM\n- Handover: Ready\n- Notable Feature: East-facing with frontage on a 12m-wide street\n\n[View Official Project](https://wasalt.sa/en/property/villa-228-sqm-facing-east-on-12m-width-street-5935070)\n\nShould you wish to explore this residence further, I would be delighted to arrange a private introduction. I invite you to complete the 'Request Private Viewing' sidebar form, and our team will share the official brochure and coordinate a tailored viewing at your convenience."
+  },
+  {
+    "id": 25,
+    "category": "Wasalt Marketplace",
+    "question": "Find me properties in Al-Faruq district in Riyadh on Wasalt.",
+    "retrieval_time_ms": 496.1,
+    "llm_time_ms": 6439.3,
+    "total_time_ms": 6935.4,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0639\u0645\u0627\u0631\u0629 \u0633\u0643\u0646\u064a\u0629 \u062a\u062c\u0627\u0631\u064a\u0629 3.328\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0631\u0633\u0644\u0627\u062a",
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639",
+      "Shams Al Riyadh "
+    ],
+    "top_scores": [
+      0.6729,
+      0.6623,
+      0.6615
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Based on the current Wasalt listings, I have identified **one property** available in the Al-Faruq district of Riyadh:\n\n---\n\n### **\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639**\n**Developer:** Wasalt Verified Partner  \n**Location:** Riyadh, Saudi Arabia \u2014 Al-Faruq  \n**Property Type:** Villa  \n**Starting Price:** 735,000 AED (Original: 750,000 SAR)  \n**Bedrooms:** 2  \n**Handover Date:** Ready  \n\n**Key Amenities:**  \n- 2 Bedrooms  \n- Situated within the Al-Faruq Community  \n\n[View Official Project](https://wasalt.sa/en/property/mshrwa-sth-amyal-adwar-llbya-100583)\n\n---\n\nThis is the only Al-Faruq listing currently available in the provided property context. Should you require additional details\u2014such as precise plot size, further specifications, or alternative options in Riyadh\u2014I recommend connecting with a private client advisor who can curate a tailored selection for you.\n\nIf you would like to proceed with a private viewing or receive the official brochure, please use the **'Request Private Viewing'** sidebar form, and our team will arrange everything at your convenience."
+  },
+  {
+    "id": 26,
+    "category": "Wasalt Marketplace",
+    "question": "Does Wasalt have listings in Jeddah or Western Province?",
+    "retrieval_time_ms": 567.4,
+    "llm_time_ms": 3247.2,
+    "total_time_ms": 3814.6,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Land 391.25 SQM Facing South on 18m Width Street",
+      "Land 900 SQM Facing South East on 30m Width Street",
+      "Land 700 SQM Facing North West on 30m Width Street"
+    ],
+    "top_scores": [
+      0.6109,
+      0.605,
+      0.6026
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Based on the current listings available through Wasalt\u2019s verified portfolio, the properties I have on record are all situated in **Riyadh**\u2014specifically within the Al\u2011Yarmuk, Oraid, and As\u2011Saadah communities. There are no listings at present in **Jeddah or the broader Western Province** within the provided context.\n\nIf you are seeking opportunities in Jeddah or the Western Province, I recommend arranging a confidential consultation with one of our private client advisors. They can access our full development pipeline and forthcoming releases, ensuring you are among the first to explore any Wasalt\u2011partnered projects that may be launched in those regions.\n\nPlease let me know if you would like to schedule that consultation, or if there are other criteria\u2014such as land size, street width, or community preferences\u2014I can focus on within Riyadh\u2019s current offerings."
+  },
+  {
+    "id": 27,
+    "category": "Wasalt Marketplace",
+    "question": "Are Wasalt listings verified by REGA (Real Estate General Authority)?",
+    "retrieval_time_ms": 480.4,
+    "llm_time_ms": 8315.6,
+    "total_time_ms": 8796.0,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Floor 103.16 SQM with 2 Bedrooms",
+      "\u0645\u0633\u062a\u0648\u062f\u0639 \u062a\u062c\u0627\u0631\u064a 14,401.399\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0646\u0627\u062e",
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639"
+    ],
+    "top_scores": [
+      0.4108,
+      0.4023,
+      0.3954
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**Regarding REGA (Real Estate General Authority) verification for Wasalt listings**\n\nBased solely on the property details you supplied, **there is no explicit reference to REGA\u2019s approval** for any of the three Wasalt listings.  \n\n- Each entry lists the **developer as \u201cWasalt Verified Partner\u201d** and notes **\u201cVerified listing on Wasalt.\u201d**  \n- These labels indicate that Wasalt has its own verification process, but the documents you shared do not cite the Real Estate General Authority (RGA) or REGA\u2019s stamp.\n\n> **What this means:** While Wasalt markets its properties as *verified* and partners with \u201cVerified\u201d developers, we cannot confirm from the current context whether those verifications were conducted by REGA.  \n\n**Recommended next step:**  \nTo obtain a definitive answer\u2014including whether REGA has formally approved the properties\u2014I suggest connecting with one of our private client advisors. You can request an official brochure or schedule a private viewing via the **\"Request Private Viewing\"** sidebar form listed on the project pages.\n\n---\n\n### Quick Links for Reference\n| Property | Official Project Page |\n|----------|-----------------------|\n| Floor 103.16\u202fSQM \u2013 2\u202fBeds (Wasalt) | [View Official Project](https://wasalt.sa/en/property/floor-10316-sqm-with-2-bedrooms-5893287) |\n| Commercial Warehouse 14,401.399\u202fm\u00b2 \u2013 Al\u2011Manakh (Wasalt) | [View Official Project](https://wasalt.sa/en/property/undefined-5967923) |\n| Six\u2011Mile Villa \u2013 2\u202fBeds (Wasalt) | [View Official Project](https://wasalt.sa/en/property/mshrwa-sth-amyal-adwar-llbya-100583) |\n\nFeel free to let me know if you\u2019d like to proceed with a private viewing or have other questions about amenities, pricing, or locations!"
+  },
+  {
+    "id": 28,
+    "category": "Wasalt Marketplace",
+    "question": "What currency are Wasalt listings typically quoted in?",
+    "retrieval_time_ms": 609.5,
+    "llm_time_ms": 2534.0,
+    "total_time_ms": 3143.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0645\u0634\u0631\u0648\u0639 \u0645\u0634\u064a\u062f 10",
+      "Shams Al Riyadh ",
+      "\u0645\u0633\u062a\u0648\u062f\u0639 \u062a\u062c\u0627\u0631\u064a 14,401.399\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0646\u0627\u062e"
+    ],
+    "top_scores": [
+      0.3921,
+      0.3921,
+      0.3874
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Wasalt listings are typically quoted in both United Arab Emirates Dirhams (AED) and Saudi Riyals (SAR)."
+  },
+  {
+    "id": 29,
+    "category": "Wasalt Marketplace",
+    "question": "Can I find ready-to-move-in properties on Wasalt?",
+    "retrieval_time_ms": 488.6,
+    "llm_time_ms": 9238.7,
+    "total_time_ms": 9727.3,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0645\u0633\u062a\u0648\u062f\u0639 \u062a\u062c\u0627\u0631\u064a 14,401.399\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0646\u0627\u062e",
+      "\u0639\u0645\u0627\u0631\u0629 \u0633\u0643\u0646\u064a\u0629 \u062a\u062c\u0627\u0631\u064a\u0629 3.328\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0631\u0633\u0644\u0627\u062a",
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639"
+    ],
+    "top_scores": [
+      0.4275,
+      0.4142,
+      0.3943
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Yes, absolutely. Wasalt currently features several ready-to-move-in properties, perfect for immediate occupancy. Based on our verified listings, here are the available options:\n\n### 1. **Commercial Warehouse in Al-Manakh, Riyadh**\n*   **Property Type:** Warehouse\n*   **Location:** Al-Manakh, Riyadh, Saudi Arabia\n*   **Size:** 14,401.399 m\u00b2\n*   **Handover Status:** Ready\n*   **Link:** [View Property](https://wasalt.sa/en/property/undefined-5967923)\n\n### 2. **Commercial Residential Building in Al-Mursalat, Riyadh**\n*   **Property Type:** Building\n*   **Location:** Al-Mursalat, Riyadh, Saudi Arabia\n*   **Size:** 3,328 m\u00b2\n*   **Handover Status:** Ready\n*   **Link:** [View Property](https://wasalt.sa/en/property/undefined-5967919)\n\n### 3. **Villa in Al-Faruq, Riyadh (Six Miles Project)**\n*   **Property Type:** Villa\n*   **Location:** Al-Faruq, Riyadh, Saudi Arabia\n*   **Price:** 735,000 AED (750,000 SAR)\n*   **Bedrooms:** 2\n*   **Handover Status:** Ready\n*   **Link:** [View Property](https://wasalt.sa/en/property/mshrwa-sth-amyal-adwar-llbya-100583)\n\nThese properties are verified and available for immediate acquisition. If you would like to explore any of these in detail or request the official brochure, please let me know, or you can use the 'Request Private Viewing' form to connect with a private client advisor."
+  },
+  {
+    "id": 30,
+    "category": "Wasalt Marketplace",
+    "question": "What is the project 'Mashroua Sittat Amyal' (Six Miles Project) listed on Wasalt?",
+    "retrieval_time_ms": 758.5,
+    "llm_time_ms": 5638.3,
+    "total_time_ms": 6396.8,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Floor 103.16 SQM with 2 Bedrooms",
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639",
+      "\u0639\u0645\u0627\u0631\u0629 \u0633\u0643\u0646\u064a\u0629 \u062a\u062c\u0627\u0631\u064a\u0629 3.328\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0631\u0633\u0644\u0627\u062a"
+    ],
+    "top_scores": [
+      0.3677,
+      0.3557,
+      0.3477
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**Project:**\u202fMashroua\u202fSittat\u202fAmyal (Six\u202fMiles\u202fProject)  \n**Developer:**\u202fWasalt\u202fVerified\u202fPartner  \n**Location:**\u202fRiyadh, Saudi Arabia \u2013 Al\u2011Faruq district  \n**Property Type:**\u202fVilla  \n**Bedrooms:**\u202f2  \n**Handover / Completion:**\u202fReady (available now)  \n**Starting Price:**\u202f735,000\u202fAED\u202f(~750,000\u202fSAR)  \n**Key Amenities:**\u202f2\u202fBedrooms, Al\u2011Faruq community access  \n\nYou can view the official project page here: **[View Official Project](https://wasalt.sa/en/property/mshrwa-sth-amyal-adwar-llbya-100583)**  \n\nIf you\u2019d like to arrange a private viewing or receive the full brochure, please use the \u201cRequest Private Viewing\u201d sidebar form."
+  },
+  {
+    "id": 31,
+    "category": "Constraints & Filters",
+    "question": "Show me properties in Dubai under 2,000,000 AED.",
+    "retrieval_time_ms": 232.5,
+    "llm_time_ms": 9280.7,
+    "total_time_ms": 9513.2,
+    "model_used": "openrouter/free",
+    "retrieved_count": 2,
+    "top_matches": [
+      "DG1",
+      "Urban Oasis by Missoni"
+    ],
+    "top_scores": [
+      0.5686,
+      0.5252
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**Properties in Dubai\u202funder\u202fAED\u202f2,000,000**\n\n| # | Official Project (Developer) | Location (City, District, Landmarks) | Starting Price (AED) | Bedrooms | Handover / Completion | Key Lifestyle Amenities | Project Page |\n|---|------------------------------|--------------------------------------|----------------------|----------|-----------------------|--------------------------|--------------|\n| 1 | **DG1** \u2013 **DarGlobal** | Dubai, Business\u202fBay (near Dubai Canal) | **1,720,000\u202fAED** | 1 | **December\u202f2027** | Dubai Canal views, Sky lounge, Infinity pool, State\u2011of\u2011the\u2011art gym | [View Official Project](https://darglobal.co.uk/dg1) |\n| 2 | **Urban Oasis by Missoni** \u2013 **DarGlobal** | Dubai, Business\u202fBay (Canal promenade) | **1,850,000\u202fAED** | 1 | **Completed** | Missoni home d\u00e9cor, Canal promenade, Infinity pool, Fitness club | [View Official Project](https://darglobal.co.uk/urban-oasis-by-missoni) |\n\nBoth developments meet your price criterion and are situated in the sought\u2011after Business\u202fBay district of Dubai, offering premium finishes and distinctive lifestyle features.  \n\nIf you\u2019d like to explore either property further or arrange a private viewing, please use the **\u2018Request Private Viewing\u2019** sidebar form to receive the official brochure and connect with a dedicated client advisor."
+  },
+  {
+    "id": 32,
+    "category": "Constraints & Filters",
+    "question": "Show me ultra-luxury properties priced above 10,000,000 AED.",
+    "retrieval_time_ms": 573.7,
+    "llm_time_ms": 23394.6,
+    "total_time_ms": 23968.4,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639",
+      "Amaya",
+      "Neptune, Interiors by Mouawad"
+    ],
+    "top_scores": [
+      0.5194,
+      0.505,
+      0.4993
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Thank you for your enquiry. I have carefully reviewed our current portfolio of DarGlobal and Wasalt-verified listings, and I must advise that **none of the properties presently available in our catalogue meet the AED 10,000,000+ threshold** you have specified.\n\nFor full transparency, the highest-value residences currently listed in our portfolio are:\n\n- **Amaya** by DarGlobal \u2014 Jeddah, Saudi Arabia | Villas from **AED 2,500,000** | Handover December 2029 | Luxury finishes, 24/7 concierge, swimming pool\n  [View Official Project](https://darglobal.co.uk/amaya/amaya-plots)\n\n- **Neptune, Interiors by Mouawad** by DarGlobal \u2014 Riyadh, Saudi Arabia | Villas from **AED 2,500,000** | Handover December 2027 | Luxury finishes, 24/7 concierge, swimming pool\n  [View Official Project](https://darglobal.co.uk/neptune)\n\nUltra-prime assets above AED 10,000,000 \u2014 such as signature penthouses, private beachfront villas, and off-market trophy assets \u2014 are typically offered through our **Private Client Advisory** channel and are not publicly listed.\n\nI would strongly recommend connecting with one of our private client advisors, who can present exclusive off-market opportunities across Dubai, Riyadh, Jeddah, Muscat, and select international destinations tailored precisely to your investment criteria.\n\nShould you wish to proceed, kindly complete the **'Request Private Viewing'** form in the sidebar, and our advisory team will prepare a bespoke portfolio and official brochure for your review."
+  },
+  {
+    "id": 33,
+    "category": "Constraints & Filters",
+    "question": "Find me 4-bedroom luxury villas in Dubai or Riyadh.",
+    "retrieval_time_ms": 224.9,
+    "llm_time_ms": 14980.3,
+    "total_time_ms": 15205.2,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "D-Villas At Jumeirah Golf Estates",
+      "Villa 228 SQM Facing East on 12m Width Street",
+      "The Pagani Penthouse"
+    ],
+    "top_scores": [
+      0.6486,
+      0.5902,
+      0.5808
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Based on your criteria for **4-bedroom luxury villas in Dubai or Riyadh**, I have identified one exact match from our current portfolio, along with a notable alternative in Dubai that may interest you.\n\n---\n\n### **1. D-Villas At Jumeirah Golf Estates**  *(Exact Match: 4-Bed Villa, Dubai)*\n**Developer:** DarGlobal | **Location:** Jumeirah Golf Estates, Dubai  \n**Starting Price:** **6,500,000 AED**  \n**Bedrooms:** 4 | **Handover:** **December 2029**  \n**Key Lifestyle Amenities:**  \n- Direct access to **championship golf courses** (Earth & Fire)  \n- Private landscaped gardens & gated community security  \n- Co-branded with **Jumeirah Golf Estates** for resort-style living  \n\n[View Official Project](https://darglobal.co.uk/d-villas-at-jge)\n\n---\n\n### **2. The Pagani Penthouse**  *(Alternative: 4-Bed Ultra-Luxury Residence, Dubai)*\n**Developer:** DarGlobal | **Location:** Downtown Dubai Canal  \n**Starting Price:** **28,000,000 AED**  \n**Bedrooms:** 4 | **Handover:** **Q4 2026**  \n**Key Lifestyle Amenities:**  \n- **360\u00b0 skyline & canal views** with private rooftop pool  \n- Bespoke interiors curated with **Pagani Automobili** (carbon fiber, custom leathers)  \n- Limited \"One-of-One\" collection \u2014 extreme exclusivity  \n\n*Note: This is a branded penthouse/apartment, not a villa, but offers comparable bedroom count and ultra-luxury positioning.*  \n[View Official Project](https://darglobal.co.uk/one-of-one/project-pagani)\n\n---\n\n### **Riyadh Availability**\nThe current verified villa listing in Riyadh (Al-Muhammadiyah) features **5 bedrooms** and is **ready for immediate handover** at ~4,596,200 AED. No 4-bedroom villas in Riyadh are present in today\u2019s context.\n\n---\n\n### **Next Steps**\nIf either Dubai option aligns with your investment or lifestyle goals, I recommend securing the official brochure and a private consultation.  \n**Please use the \u2018Request Private Viewing\u2019 sidebar form** \u2014 our advisors will share floor plans, payment plans, and arrange a site or virtual tour at your convenience."
+  },
+  {
+    "id": 34,
+    "category": "Constraints & Filters",
+    "question": "What can I buy with a budget of 3,000,000 AED in Dubai?",
+    "retrieval_time_ms": 258.7,
+    "llm_time_ms": 37702.6,
+    "total_time_ms": 37961.3,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Urban Oasis by Missoni",
+      "DG1",
+      "W Residences"
+    ],
+    "top_scores": [
+      0.5084,
+      0.4831,
+      0.4815
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Certainly. Based strictly on the provided Dubai property context and your stated budget of **AED 3,000,000**, here are the luxury property opportunities currently documented that fall within your range.\n\n### Dubai Properties Within Your AED 3,000,000 Budget\n\n| Project | Developer / Branding | Location | Starting Price | Bedrooms | Handover / Completion | Key Amenities | Project |\n|---|---|---|---|---|---|---|---|\n| **W Residences** | DarGlobal x W Hotels Worldwide | Downtown Dubai | **AED 2,800,000** | 1 | **September 2026** | Burj Khalifa views; W \u201cWhatever/Whenever\u201d concierge; Clubhouse; Infinity pool | [View Official Project](https://darglobal.co.uk/w-residences) |\n| **Urban Oasis by Missoni** | DarGlobal x Missoni | Business Bay | **AED 1,850,000** | 1 | **Completed** | Missoni home decor; Canal promenade; Infinity pool; Fitness club | [View Official Project](https://darglobal.co.uk/urban-oasis-by-missoni) |\n| **DG1** | DarGlobal x Gensler Architects | Business Bay | **AED 1,720,000** | 1 | **December 2027** | Dubai Canal views; Sky lounge; Infinity pool; State of the art gym | [View Official Project](https://darglobal.co.uk/dg1) |\n\n### Interpretation for Your Budget\n\nWith a budget of **AED 3,000,000**, you are positioned to consider all three of the above listed developments by starting price.\n\n- **W Residences** is the closest to your budget ceiling at **AED 2,800,000**, offering a future luxury residence in **Downtown Dubai** with **Burj Khalifa views**, W-branded concierge, clubhouse, and infinity pool. Handover is targeted for **September 2026**.\n- **Urban Oasis by Missoni** is a completed residence in **Business Bay**, starting at **AED 1,850,000**, with Missoni interiors, canal promenade access, infinity pool, and fitness club.\n- **DG1** starts at **AED 1,720,000** in **Business Bay**, designed by **Gensler Architects**, with Dubai Canal views, sky lounge, infinity pool, and state-of-the-art gym, with handover planned for **December 2027**.\n\n### Important Note\n\nThe provided context lists **one-bedroom units** for these Dubai projects. If your **AED 3,000,000** budget is intended for a larger or multi-bedroom luxury residence, those configurations are not detailed in the current context. In that case, I would recommend connecting with a private client advisor to explore higher-bedroom options within or above your budget.\n\nIf you would like to proceed, you may use the **\u2018Request Private Viewing\u2019** sidebar form to receive the official brochure, or I can assist in arranging a private client advisor introduction for further options."
+  },
+  {
+    "id": 35,
+    "category": "Constraints & Filters",
+    "question": "What properties are available between 4,000,000 AED and 7,000,000 AED?",
+    "retrieval_time_ms": 586.0,
+    "llm_time_ms": 165794.1,
+    "total_time_ms": 166380.1,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0645\u0634\u0631\u0648\u0639 \u0641\u0644\u0644 \u0625\u062a\u0648\u0627\u0644",
+      "Apartment with 3 Bedrooms",
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639"
+    ],
+    "top_scores": [
+      0.4255,
+      0.4194,
+      0.419
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Thank you for your enquiry. Having reviewed our current portfolio, I am pleased to confirm that **one property** falls within your specified budget of **AED 4,000,000 \u2013 7,000,000**:\n\n---\n\n### \ud83c\udfdb\ufe0f \u0645\u0634\u0631\u0648\u0639 \u0641\u0644\u0644 \u0625\u062a\u0648\u0627\u0644 (Etwar Villa Project)\n**Developer:** Wasalt Verified Partner\n**Location:** Riyadh, Saudi Arabia \u2014 King Khalid International Airport community\n**Starting Price:** AED 4,116,000 *(originally listed at SAR 4,200,000)*\n**Bedrooms:** 3\n**Handover:** Ready \u2014 immediate occupancy\n**Key Features:**\n- Generous villa layouts spanning **250 \u2013 350 SQM**\n- Situated within the established **King Khalid Int. Airport** residential community\n- Ready title, allowing prompt transfer and move-in\n\n\ud83d\udd17 [View Official Project](https://wasalt.sa/en/property/mshrwa-fll-itwal-100159)\n\n---\n\n**A note on the wider portfolio:** Our two remaining listings \u2014 a 3-bedroom apartment in Al-Janadriyah (AED 392,000) and a 2-bedroom villa in Six Miles, Al-Faruq (AED 735,000) \u2014 fall below your target range and have therefore been excluded.\n\nShould you require additional off-plan or prime holdings within this bracket that are not yet reflected in our public listings, I would recommend a confidential consultation with one of our private client advisors, who can access the wider DarGlobal and Wasalt partner inventory.\n\nIf the Etwar villa aligns with your objectives, I would be delighted to assist you in arranging a private consultation \u2014 simply complete"
+  },
+  {
+    "id": 36,
+    "category": "Constraints & Filters",
+    "question": "Find me 1-bedroom investment apartments in Dubai.",
+    "retrieval_time_ms": 250.4,
+    "llm_time_ms": 5407.8,
+    "total_time_ms": 5658.2,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Urban Oasis by Missoni",
+      "DG1",
+      "The Pagani Penthouse"
+    ],
+    "top_scores": [
+      0.5575,
+      0.5522,
+      0.5492
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Based on the current portfolio context, two 1-bedroom Dubai apartments match your investment criteria. Both are located in Business Bay and developed by DarGlobal.\n\n### 1. Urban Oasis by Missoni\n- **Developer:** DarGlobal\n- **Location:** Business Bay, Dubai, UAE\n- **Starting Price:** AED 1,850,000\n- **Bedrooms:** 1\n- **Handover:** Completed\n- **Key Amenities:** Missoni home decor, Canal promenade, Infinity pool, Fitness club\n- **Project Link:** [View Official Project](https://darglobal.co.uk/urban-oasis-by-missoni)\n\nA completed, branded residence with Missoni-designed interiors and canal promenade access \u2014 suited to buyers seeking an immediately available prime asset.\n\n### 2. DG1\n- **Developer:** DarGlobal\n- **Location:** Business Bay, Dubai, UAE\n- **Starting Price:** AED 1,720,000\n- **Bedrooms:** 1\n- **Handover:** December 2027\n- **Key Amenities:** Dubai Canal views, Sky lounge, Infinity pool, State-of-the-art gym\n- **Project Link:** [View Official Project](https://darglobal.co.uk/dg1)\n\nA forthcoming Gensler Architects-designed tower with Dubai Canal views and a sky lounge \u2014 suited to investors with a medium-term completion horizon.\n\nFor investment-specific details such as rental yields, payment plans, service charges, and unit availability, the provided context does not list these figures. I recommend connecting with a private client advisor for a tailored investment review.\n\nTo proceed, kindly use the **\u2018Request Private Viewing\u2019** sidebar form to receive the official brochure and advisor follow-up."
+  },
+  {
+    "id": 37,
+    "category": "Constraints & Filters",
+    "question": "Show me properties with completion scheduled around 2026 or 2027.",
+    "retrieval_time_ms": 744.3,
+    "llm_time_ms": 15842.4,
+    "total_time_ms": 16586.7,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Les Vagues by Elie Saab",
+      "Marea, Interiors by Missoni",
+      "Neptune, Interiors by Mouawad"
+    ],
+    "top_scores": [
+      0.2807,
+      0.276,
+      0.2631
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Certainly. Based strictly on the provided property context, the developments aligned with your preferred completion window around **2026 or 2027** are those scheduled for handover in **December 2027**. No property in the provided context lists a completion date around **December 2026**, so the closest and currently listed match is the **December 2027** handover cohort.\n\n### Matching Developments \u2014 Completion Around December 2027\n\n#### 1. Les Vagues by Elie Saab\n- **Official Project Name:** Les Vagues by Elie Saab  \n- **Developer:** DarGlobal  \n- **Type:** Apartments  \n- **Location:** Doha, Qatar  \n- **Starting Price:** AED 2,500,000  \n- **Number of Bedrooms:** Not specified in the provided context  \n- **Handover / Completion Date:** December 2027  \n- **Key Lifestyle Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool  \n- **Project Link:** [View Official Project](<https://darglobal.co.uk/les-vagues>)\n\n#### 2. Marea, Interiors by Missoni\n- **Official Project Name:** Marea, Interiors by Missoni  \n- **Developer:** DarGlobal  \n- **Type:** Apartments  \n- **Location:** Cortesin, Spain  \n- **Starting Price:** AED 2,500,000  \n- **Number of Bedrooms:** Not specified in the provided context  \n- **Handover / Completion Date:** December 2027  \n- **Key Lifestyle Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool  \n- **Project Link:** [View Official Project](<https://darglobal.co.uk/marea>)\n\n#### 3. Neptune, Interiors by Mouawad\n- **Official Project Name:** Neptune, Interiors by Mouawad  \n- **Developer:** DarGlobal  \n- **Type:** Villas  \n- **Location:** Riyadh, Saudi Arabia  \n- **Starting Price:** AED 2,500,000  \n- **Number of Bedrooms:** Not specified in the provided context  \n- **Handover / Completion Date:** December 2027  \n- **Key Lifestyle Amenities:** Luxury finishes, 24/7 Concierge, Swimming pool  \n- **Project Link:** [View Official Project](<https://darglobal.co.uk/neptune>)\n\n---\n\n**Executive Note:**  \nAll three listed properties are positioned within the **2027 handover** timeframe and carry a starting price of **AED 2,500,000**. However, bedroom counts and certain location specifics such as district or landmark detail were not included in the provided context, so I would recommend confirming those directly with a private client advisor.\n\nIf you are specifically seeking a **2026 completion**, the current context does not surface a matching property. Should you wish to proceed with any of the above, I invite you to use the **\u2018Request Private Viewing\u2019** sidebar form to receive the official brochure and schedule a private consultation."
+  },
+  {
+    "id": 38,
+    "category": "Constraints & Filters",
+    "question": "Show me completed or ready-to-move-in properties in Dubai or Riyadh.",
+    "retrieval_time_ms": 758.3,
+    "llm_time_ms": 6833.4,
+    "total_time_ms": 7591.7,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Neptune, Interiors by Mouawad",
+      "\u0645\u0634\u0631\u0648\u0639 \u0645\u0634\u064a\u062f 10",
+      "Land 450 SQM Facing East on 15m Width Street"
+    ],
+    "top_scores": [
+      0.545,
+      0.5201,
+      0.5191
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**Ready\u2011to\u2011Move\u2011In Properties (as per the current context)**  \n\n| # | Project & Developer | Location & Community | Starting Price | Bedrooms | Handover / Completion | Key Lifestyle Amenities | Direct Link |\n|---|----------------------|----------------------|----------------|----------|-----------------------|--------------------------|-------------|\n| **1** | **\u0645\u0634\u0631\u0648\u0639 \u0645\u0634\u064a\u062f 10** \u2013 *Wasalt Verified Partner* | Riyadh, **Qurtubah** District | **1,037,820\u202fAED** (\u2248\u202f1,059,000\u202fSAR) | **2\u202fBedrooms** | **Ready** (already available) | \u2022 Qurtubah community setting<br>\u2022 Private villa layout | [View Official Project](https://wasalt.sa/en/property/mshrwa-mshyd-10-100582) |\n| **2** | **Land 450\u202fSQM Facing East on 15\u202fm Width Street** \u2013 *Wasalt Verified Partner* | Riyadh, **Irqah** District | **2,954,700\u202fAED** (\u2248\u202f3,015,000\u202fSAR) | N/A (Land parcel) | **Ready** (available for immediate acquisition) | \u2022 450\u202fm\u00b2 parcel<br>\u2022 East\u2011facing exposure on a 15\u202fm wide street<br>\u2022 Irqah community location | [View Official Project](https://wasalt.sa/en/property/land-450-sqm-facing-east-on-15m-width-street-5969167) |\n\n**Dubai:**  \nThe provided property context does not contain any ready\u2011to\u2011move\u2011in listings for Dubai. If you are specifically seeking completed or immediate\u2011possession properties in Dubai, I recommend connecting with a private client advisor so we can access the most current Dubai market inventory.\n\n**Next Steps:**  \nIf any of the Riyadh properties above align with your investment criteria, I invite you to use the **\u201cRequest Private Viewing\u201d** sidebar form to receive the official brochure and arrange a personalized walkthrough. Should you wish to explore additional opportunities\u2014whether in Riyadh\u2019s broader portfolio or beyond\u2014our concierge team is ready to assist with curated selections tailored to your objectives."
+  },
+  {
+    "id": 39,
+    "category": "Constraints & Filters",
+    "question": "What is the most accessible luxury entry price in DarGlobal's portfolio?",
+    "retrieval_time_ms": 581.3,
+    "llm_time_ms": 35982.2,
+    "total_time_ms": 36563.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "DarGlobal Mansions Interiors by Fendi Casa",
+      "Amour Sans Detour",
+      "Top of the Astera"
+    ],
+    "top_scores": [
+      0.5586,
+      0.5502,
+      0.55
+    ],
+    "entity_recalled": false,
+    "filter_valid": true,
+    "answer": "Thank you for your enquiry. Based on the current DarGlobal portfolio details provided, here is the entry-point picture:\n\n## Most Accessible Luxury Entry Price: AED 2,500,000\n\nAll three featured developments currently enter the market at the same starting point of **AED 2,500,000**, so the \"most accessible\" choice is really determined by **location and handover timeline** rather than price.\n\n| Project | Location | Type | From | Handover |\n|---|---|---|---|---|\n| DarGlobal Mansions Interiors by Fendi Casa | Wadi Safar, Riyadh, KSA | Villas | AED 2,500,000 | Q4 2026 |\n| Top of the Astera | Al Marjan Island, Ras Al Khaimah, UAE | Apartments | AED 2,500,000 | Q4 2026 |\n| Amour Sans Detour | AIDA, Muscat, Oman | Villas | AED 2,500,000 | December 2029 |\n\n**Fastest route to possession:** DarGlobal Mansions Interiors by Fendi Casa (Riyadh) and Top of the Astera (RAK), both scheduled for Q4 2026.\n\n**Common amenity standard across all three:** luxury finishes, 24/7 concierge, and swimming pool.\n\n### Direct links\n- [View Official Project \u2014 DarGlobal Mansions Interiors by Fendi Casa](https://darglobal.co.uk/rayana/darglobal-mansions-fendi-casa)\n- [View Official Project \u2014 Top of the Astera](https://darglobal.co.uk/one-of-one/top-of-the-astera)\n- [View Official Project \u2014 Amour Sans Detour](https://darglobal.co.uk/amour-sans-detour)\n\n### Items not listed in the current context\n- Bedroom configurations and unit mix for each development\n- SAR and USD pricing equivalents\n- Payment plans, service charges, and unit-specific pricing\n\nI would rather flag these as unlisted than estimate them for you. For precise figures, I recommend connecting with a private client advisor.\n\nIf you would like the official brochure and unit-level pricing for any of the above, please submit your details via the **'Request Private Viewing'** sidebar form, and our team will arrange a private consultation and, where desired, an in-person or virtual viewing."
+  },
+  {
+    "id": 40,
+    "category": "Constraints & Filters",
+    "question": "Find me properties under 1,500,000 AED.",
+    "retrieval_time_ms": 285.5,
+    "llm_time_ms": 14252.9,
+    "total_time_ms": 14538.3,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639",
+      "Land 300 SQM Facing East on 15m Width Street",
+      "Apartment with 3 Bedrooms"
+    ],
+    "top_scores": [
+      0.397,
+      0.393,
+      0.392
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Below are the verified developments that meet your\u202f<\u202f1,500,000\u202fAED\u202fbudget:\n\n| # | Project | Developer | Location (City, District) | Type | Bedrooms | Handover / Completion | Starting Price (AED) | Key Amenities | Official Link |\n|---|---------|-----------|---------------------------|------|----------|-----------------------|----------------------|---------------|---------------|\n| 1 | **\u0645\u0634\u0631\u0648\u0639 \u0633\u062a\u0629 \u0623\u0645\u064a\u0627\u0644 - \u0623\u062f\u0648\u0627\u0631 \u0644\u0644\u0628\u064a\u0639** | Wasalt\u202fVerified\u202fPartner | Riyadh \u2013 Al\u2011Faruq | Villa | 2 | Ready | **735,000\u202fAED** (\u2248\u202f750,000\u202fSAR) | 2\u202fBedrooms, Al\u2011Faruq Community | [View Official Project](https://wasalt.sa/en/property/mshrwa-sth-amyal-adwar-llbya-100583) |\n| 2 | **Land 300\u202fSQM Facing East on 15\u202fm Width Street** | Wasalt\u202fVerified\u202fPartner | Riyadh \u2013 Ar\u2011Rimal | Land | \u2013 (land parcel) | Ready | **1,087,800\u202fAED** (\u2248\u202f1,110,000\u202fSAR) | 300\u202fSQM plot, Ar\u2011Rimal Community | [View Official Project](https://wasalt.sa/en/property/land-300-sqm-facing-east-on-15m-width-street-5969161) |\n| 3 | **Apartment with 3 Bedrooms** | Wasalt\u202fVerified\u202fPartner | Riyadh \u2013 Al\u2011Janadriyah | Apartment | 3 | Ready | **392,000\u202fAED** (\u2248\u202f400,000\u202fSAR) | 3\u202fBedrooms, Al\u2011Janadriyah Community | [View Official Project](https://wasalt.sa/en/property/apartment-with-3-bedrooms-5803521) |\n\nAll three properties are currently **ready for handover** and fall comfortably beneath the 1,500,000\u202fAED threshold.  \n\nIf any of these options spark your interest, please use the **\u2018Request Private Viewing\u2019** sidebar form to receive the official brochure and arrange a personalized tour. I\u2019m happy to assist further!"
+  },
+  {
+    "id": 41,
+    "category": "Advisory & Domain",
+    "question": "Which property offers the best golf course views and lifestyle?",
+    "retrieval_time_ms": 592.8,
+    "llm_time_ms": 13456.6,
+    "total_time_ms": 14049.4,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "D-Villas At Jumeirah Golf Estates",
+      "Trump Golf Villas",
+      "\u0645\u0634\u0631\u0648\u0639 \u0646\u0628\u062a\u0648\u0646 \u0628\u062a\u0635\u0627\u0645\u064a\u0645 \u0645\u0646 \u0645\u0639\u0648\u0636 - \u0641\u0644\u0644 \u0644\u0644\u0628\u064a\u0639"
+    ],
+    "top_scores": [
+      0.415,
+      0.344,
+      0.3107
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**Top Choice for Golf\u2011Course Views & Lifestyle:** **D\u2011Villas At Jumeirah Golf Estates**  \n\n- **Official Project Name & Developer:** D\u2011Villas At Jumeirah Golf Estates \u2013 **DarGlobal**  \n- **Location:** Dubai, United Arab Emirates \u2013 **Jumeirah Golf Estates** (the premier golf community in the region)  \n- **Starting Price:** **6,500,000\u202fAED** (\u2248\u202fUSD\u202f1,770,000)  \n- **Bedrooms:** 4  \n- **Handover / Completion:** **December\u202f2029**  \n- **Key Lifestyle Amenities:**  \n  \u2022 Direct access to the **Championship golf course** (play on\u2011site or enjoy panoramic fairway views)  \n  \u2022 **Private gardens** for exclusive outdoor living  \n  \u2022 **Gated luxury community** ensuring privacy and security  \n  \u2022 Co\u2011branded design with **Jumeirah Golf Estates** for an authentic golf\u2011resort experience  \n\n**Why it stands out:**  \n- The development is situated **within the Jumeirah Golf Estates** itself, meaning residents enjoy uninterrupted, championship\u2011level golf course vistas and immediate access to world\u2011class golf facilities.  \n- The combination of a **gated, luxury enclave** with private gardens and the prestige of Jumeirah branding delivers a high\u2011end, resort\u2011style lifestyle that is hard to match elsewhere in the region.  \n\n**Project Page:** [View Official Project](https://darglobal.co.uk/d-villas-at-jge)\n\n---\n\nIf you\u2019d like to explore this property further, receive the official brochure, or arrange a private viewing, please use the **\u2018Request Private Viewing\u2019** sidebar form. I\u2019ll connect you with a dedicated client advisor who can provide all the detailed information you need."
+  },
+  {
+    "id": 42,
+    "category": "Advisory & Domain",
+    "question": "I am an automotive enthusiast looking for supercar-branded residences. What do you recommend?",
+    "retrieval_time_ms": 642.3,
+    "llm_time_ms": 21104.0,
+    "total_time_ms": 21746.3,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "The Astera, Interiors by Aston Martin",
+      "7&8 Albert Hall Mansions",
+      "Tierra Viva, Design inspired by Automobili Lamborghini"
+    ],
+    "top_scores": [
+      0.4116,
+      0.3879,
+      0.3728
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "It's a pleasure to connect with fellow automotive enthusiasts. At DarGlobal, we specialize in translating the prestige of the world's most iconic marques into exceptional living experiences. From your interest in supercar-branded residences, I've identified two outstanding developments in our current portfolio that directly align with your passion:\n\n### \ud83c\udfce\ufe0f **The Astera \u2013 Interiors by Aston Martin**\n- **Developer:** DarGlobal\n- **Location:** Al Marjan Island, Ras Al Khaimah, UAE (waterfront district)\n- **Starting Price:** 1,950,000 AED\n- **Configuration:** 1-bedroom apartment\n- **Handover / Completion:** December 2028\n- **Key Lifestyle Amenities:** \n  - Private beach access\n  - Aston Martin bespoke interior finishes and detailing\n  - Waterfront infinity pool with panoramic marina views\n- **Official Project Page:** [View Official Project](https://darglobal.co.uk/the-astera)\n\n### \ud83d\udc02 **Tierra Viva \u2013 Design Inspired by Automobili Lamborghini**\n- **Developer:** DarGlobal\n- **Location:** Benahav\u00eds, Spain (Andalusia, gateway to Marbella)\n- **Starting Price:** 2,500,000 AED\n- **Configuration:** Luxury villa collection (bedroom layout available upon request)\n- **Handover / Completion:** June 2028\n- **Key Lifestyle Amenities:** \n  - Lamborghini-inspired architectural language and interior motifs\n  - 24/7 concierge services\n  - Infinity-edge swimming pool and landscaped gardens\n- **Official Project Page:** [View Official Project](https://darglobal.co.uk/tierra-viva)\n\nBoth residences are curated for those who appreciate the intersection of high-performance engineering and refined living. While The Astera offers a more compact, beachfront Aston Martin-inspired apartment, Tierra Viva delivers a full villa experience with Lamborghini\u2019s iconic design DNA in a prestigious Spanish locale.\n\n**Note:** Detailed bedroom configurations, floor plans, and bespoke personalization options for Tierra Viva are not fully listed in this overview. I\u2019d be delighted to connect you with a private client advisor who can provide the official brochure, availability matrix, and tailored recommendations based on your specific lifestyle criteria.\n\nIf you\u2019d like to proceed or receive the official project brochures, please feel free to use the \u201cRequest Private Viewing\u201d sidebar form, and our team will ensure you receive the full specification packs and next-step guidance."
+  },
+  {
+    "id": 43,
+    "category": "Advisory & Domain",
+    "question": "Which developments are best suited for waterfront or canal living?",
+    "retrieval_time_ms": 567.3,
+    "llm_time_ms": 75252.3,
+    "total_time_ms": 75819.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "The Mulliner",
+      "Marea, Interiors by Missoni",
+      "Land 600 SQM Facing East on 20m Width Street"
+    ],
+    "top_scores": [
+      0.2197,
+      0.2185,
+      0.2165
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Thank you for your enquiry. In the interest of full transparency, I must advise that none of the three listings currently within our portfolio context explicitly confirm waterfront or canal-front living. Here is what is documented:\n\n- **The Mulliner** by DarGlobal \u2014 149 Old Park Lane, London. From AED 2,500,000; handover Q4 2026. Listed amenities: luxury finishes, 24/7 concierge, swimming pool. No canal or waterfront positioning is specified. [View Official Project](https://darglobal.co.uk/the-mulliner)\n- **Marea, Interiors by Missoni** by DarGlobal \u2014 Cortesin, Spain. From AED 2,500,000; handover December 2027. The name (\"marea\" \u2014 tide) and its Andalusian setting may suggest coastal appeal, however the listing does not confirm waterfront or canal access. [View Official Project](https://darglobal.co.uk/marea)\n- **An-Narjis Land, Riyadh** \u2014 600 SQM residential plot, ready; no water features are indicated.\n\nRather than speculate, I would recommend a brief consultation with one of our private client advisors, who can present verified waterfront and canal-side residences across Dubai, Oman, Saudi Arabia, and our international portfolio that align precisely with your lifestyle criteria.\n\nShould any of the above developments interest you, I invite you to use the **'Request Private Viewing'** sidebar form to receive the official brochure and arrange a private consultation."
+  },
+  {
+    "id": 44,
+    "category": "Advisory & Domain",
+    "question": "What payment plan or schedule is typical for DarGlobal developments like DG1?",
+    "retrieval_time_ms": 624.7,
+    "llm_time_ms": 9822.1,
+    "total_time_ms": 10446.8,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "DG1",
+      "Les Vagues by Elie Saab",
+      "Aida"
+    ],
+    "top_scores": [
+      0.368,
+      0.3312,
+      0.3167
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "For **DG1 by DarGlobal**, the provided property context does not include any payment plan or schedule details. I therefore cannot advise on typical payment terms or financing arrangements with confidence, and I would not want to speculate.\n\nFor reference, **DG1** is detailed as:\n\n- **Developer:** DarGlobal  \n- **Location:** Dubai, United Arab Emirates \u2014 Business Bay  \n- **Type:** Apartments  \n- **Starting Price:** AED 1,720,000  \n- **Bedrooms:** 1  \n- **Handover Date:** December 2027  \n- **Design:** Gensler Architects  \n- **Key Amenities:** Dubai Canal views, Sky lounge, Infinity pool, State of the art gym  \n- **Project Link:** [View Official Project](https://darglobal.co.uk/dg1)\n\nSince payment plans, schedules, and buyer-specific terms are not listed in the provided context, I recommend connecting with a **private client advisor** to discuss the available payment structures for DarGlobal developments such as DG1.\n\nIf you would like, you can use the **\u2018Request Private Viewing\u2019** sidebar form to receive the official brochure and arrange a private consultation."
+  },
+  {
+    "id": 45,
+    "category": "Advisory & Domain",
+    "question": "How do I request an official brochure or arrange a private viewing?",
+    "retrieval_time_ms": 597.7,
+    "llm_time_ms": 5277.5,
+    "total_time_ms": 5875.2,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "W Residences",
+      "Trump Cliff Villas",
+      "Trump International Hotel & Tower Dubai"
+    ],
+    "top_scores": [
+      0.1275,
+      0.1152,
+      0.1133
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**How to Request an Official Brochure or Arrange a Private Viewing**\n\nTo secure an exclusive brochure and set up a private showing, simply **use the \u201cRequest Private Viewing\u201d sidebar form** that appears on each property\u2019s project page. This form triggers the dispatch of the official marketing materials and schedules a dedicated viewing experience tailored to your preferences.\n\nBelow are the project pages where you will find the corresponding sidebar forms:\n\n| # | Property | Developer | Location | Project Page |\n|---|----------|-----------|----------|--------------|\n| 1 | **W Residences** \u2013 Apartments (W Hotels Worldwide) | DarGlobal | Downtown Dubai | [View Official Project](https://darglobal.co.uk/w-residences) |\n| 2 | **Trump Cliff Villas** \u2013 Villas (Trump Organization) | DarGlobal | AIDA, Muscat, Oman | [View Official Project](https://darglobal.co.uk/aida-trump-international-cliff-villas) |\n| 3 | **Trump International Hotel & Tower Dubai** \u2013 Apartments (Trump Organization) | DarGlobal | Palm Jumeirah / Downtown Dubai | [View Official Project](https://darglobal.co.uk/trump-international-hotel-and-tower-dubai) |\n\n**Steps to proceed:**\n\n1. Click the appropriate *View Official Project* link above.\n2. On the property\u2019s landing page, locate the **\u201cRequest Private Viewing\u201d** button/sidebar form (usually near the footer or under \u201cContact Us\u201d).\n3. Fill out the short questionnaire\u2014specifying your preferred dates, number of bedrooms, and any special amenity requests.\n4. Submit the form; you will receive the official PDF brochure and confirmation of your private viewing appointment within 24\u201348\u202fhours.\n\nIf you\u2019d like assistance selecting the most suitable development or have questions about price points, handover dates, or key amenities, just let me know and I\u2019ll highlight the top match for you.  \n\n*We\u2019re delighted to facilitate this journey for you\u2014simply reply with the property number or name and I\u2019ll point you to the exact form.*"
+  },
+  {
+    "id": 46,
+    "category": "Advisory & Domain",
+    "question": "Do you have any properties in New York or Paris?",
+    "retrieval_time_ms": 575.7,
+    "llm_time_ms": 4953.8,
+    "total_time_ms": 5529.5,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Les Vagues by Elie Saab",
+      "\u0645\u0634\u0631\u0648\u0639 \u0639\u064a\u0646 \u0623\u0633\u0633 - \u0634\u0642\u0642 \u0644\u0644\u0628\u064a\u0639",
+      "Land 391.25 SQM Facing South on 18m Width Street"
+    ],
+    "top_scores": [
+      0.3228,
+      0.3209,
+      0.306
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Thank you for your inquiry. I have reviewed our current property portfolio, and unfortunately, I do not have any active listings in New York or Paris at this time.\n\nThe properties currently available through DarGlobal and Wasalt are located in:\n\n- **Doha, Qatar** \u2014 *Les Vagues by Elie Saab* (Apartments, starting from 2,500,000 AED, handover December 2027)\n- **Riyadh, Saudi Arabia** \u2014 *An-Nada* community (Villa, 1 bedroom, ready, ~1,298,683 AED)\n- **Riyadh, Saudi Arabia** \u2014 *Al-Yarmuk* district (Land, 391.25 SQM, ready, ~1,993,810 AED)\n\nShould you be interested in prime real estate in New York or Paris, I would be delighted to connect you with a private client advisor who specializes in those international markets and can source opportunities tailored to your requirements.\n\nIf you would like to explore any of our current listings in Qatar or Saudi Arabia, please let me know and I can share the official brochures and arrange a private viewing."
+  },
+  {
+    "id": 47,
+    "category": "Advisory & Domain",
+    "question": "Can you convert property prices from AED to USD or SAR?",
+    "retrieval_time_ms": 585.0,
+    "llm_time_ms": 17990.6,
+    "total_time_ms": 18575.6,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Apartment with 3 Bedrooms",
+      "Land 300 SQM Facing North on 15m Width Street",
+      "Shams Al Riyadh "
+    ],
+    "top_scores": [
+      0.3774,
+      0.3712,
+      0.3664
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "Of course. Based strictly on the property context provided, here are the recorded AED price points and their corresponding SAR equivalents:\n\n1. **Apartment with 3 Bedrooms** \u2013 Al-Janadriyah, Riyadh  \n   - **AED:** 392,000  \n   - **Listed SAR Equivalent:** 400,000 SAR  \n   - *Per the provided context:* AED 392,000 \u2248 SAR 400,000\n\n2. **Land 300 SQM Facing North on 15m Width Street** \u2013 As-Safa, Riyadh  \n   - **AED:** 882,000  \n   - **Listed SAR Equivalent:** 900,000 SAR  \n   - *Per the provided context:* AED 882,000 \u2248 SAR 900,000\n\n3. **Shams Al Riyadh** \u2013 Al Rihab, Riyadh  \n   - **AED:** 2,352,000  \n   - **Listed SAR Equivalent:** 2,400,000 SAR  \n   - *Per the provided context:* AED 2,352,000 \u2248 SAR 2,400,000\n\nRegarding **USD**: the provided property context does not include USD equivalents or current exchange rates, so I cannot accurately convert AED to USD without relying on unverified data. For a precise USD valuation, I would recommend connecting with a private client advisor.\n\nFor **SAR**, the figures above reflect the listing-stated equivalences rather than real-time currency fluctuations.\n\nIf you would like, I can provide a side-by-side summary of any specific property or guide you through the next steps for a private viewing."
+  },
+  {
+    "id": 48,
+    "category": "Advisory & Domain",
+    "question": "What are the lifestyle amenities at W Residences Downtown Dubai?",
+    "retrieval_time_ms": 560.5,
+    "llm_time_ms": 3579.4,
+    "total_time_ms": 4140.9,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "W Residences",
+      "The Pagani Penthouse",
+      "Urban Oasis by Missoni"
+    ],
+    "top_scores": [
+      0.6187,
+      0.5386,
+      0.5342
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**W Residences \u2013 Downtown Dubai (DarGlobal / W Hotels Worldwide)**  \n\n| Detail | Information |\n|---|---|\n| **Official Project Page** | [View Official Project](https://darglobal.co.uk/w-residences) |\n| **Developer** | DarGlobal |\n| **Branding** | W Hotels Worldwide |\n| **Location** | Downtown Dubai, UAE (Burj\u202fKhalifa view area) |\n| **Starting Price** | 2,800,000\u202fAED (\u2248\u202fABR\u202f~\u202f1\u202fM\u202fSAR; USD\u202f\u2248\u202f$380k) |\n| **Bedrooms** | 1 |\n| **Handover / Completion** | September\u202f2026 |\n\n### Lifestyle Amenities & Key Features\n- **Burj\u202fKhalifa Views** \u2013 Panoramic sightlines of the world\u2019s tallest skyscraper.  \n- **W \u2018Whatever/Whenever\u2019 Concierge** \u2013 Dedicated 24/7 personal service from the W Hotels network.  \n- **Clubhouse** \u2013 Community hub offering events, gatherings, and social spaces.  \n- **Infinity Pool** \u2013 A private, climate\u2011controlled infinity pool on site.  \n\nThese amenities blend luxury hospitality with high\u2011end living, making W Residences a prime choice for discerning investors seeking exclusive access and premium experiences in Downtown Dubai. If you\u2019d like more details or wish to arrange a private viewing, please use the **\u201cRequest Private Viewing\u201d** sidebar form linked above."
+  },
+  {
+    "id": 49,
+    "category": "Advisory & Domain",
+    "question": "How does Wasalt help buyers verify property ownership and listings in Saudi Arabia?",
+    "retrieval_time_ms": 489.1,
+    "llm_time_ms": 7638.1,
+    "total_time_ms": 8127.2,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "\u0645\u0633\u062a\u0648\u062f\u0639 \u062a\u062c\u0627\u0631\u064a 14,401.399\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0646\u0627\u062e",
+      "Land 700 SQM Facing North West on 30m Width Street",
+      "\u0639\u0645\u0627\u0631\u0629 \u0633\u0643\u0646\u064a\u0629 \u062a\u062c\u0627\u0631\u064a\u0629 3.328\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0631\u0633\u0644\u0627\u062a"
+    ],
+    "top_scores": [
+      0.5902,
+      0.5676,
+      0.5666
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "**How Wasalt Helps Buyers Verify Property Ownership & Listings in Saudi Arabia**\n\nBased on the verified listings you\u2019ve shared, Wasalt\u2019s role in authentication and credibility rests on two core pillars embedded in every entry:\n\n| Pillar | What It Means for You |\n|--------|----------------------|\n| **Verified Partner Status** \u2013 All properties listed under \u201c*Wasalt Verified Partner*\u201d have been vetted by Wasalt\u2019s internal compliance team before going live on its platform. | Guarantees that the developer meets Wasalt\u2019s quality\u2011control and legal\u2011ownership standards. |\n| **\u201cVerified Listing on Wasalt\u201d** \u2013 Each record carries the tag *\u201cVerified listing on Wasalt\u201d* and points to an exclusive project page hosted at `https://wasalt.sa/en/property/<ID>` (e.g., the URLs above). | Provides a single, authoritative source where you can cross\u2011check titles, types, sizes, starting price, amenities, community, and expected handover/completion dates. |\n\n### Practical Steps for Verification\n\n1. **Visit the Official Project Page**  \n   - Open the link shown in the property summary to review the full dossier.  \n   - Confirm the **developer name**, **location (city/district/landmarks)**, **area size**, **starting price (AED/SAR/USD where noted)**, **handover/completion date**, and **key amenities** (branded interiors, canal views, golf access, private pools, etc.).\n\n2. **Cross\u2011Reference Community Information**  \n   - The \u201cAmenities\u201d field often cites the neighbourhood (e.g., Al\u2011Manakh Community, As\u2011Saadah Community, Al\u2011Mursalat Community). These are the local districts where residents enjoy specific services and lifestyle features.\n\n3. **Leverage the \u201cVerified Partner\u201d Badge**  \n   - When you see a property listed under *Wasalt Verified Partner*, you know it passed Wasalt\u2019s pre\u2011launch audit. This reduces the risk of fraudulent or mis\u2011represented listings.\n\n4. **Direct Due\u2011Diligence Support**  \n   - While the public pages give you a solid first pass, Wasalt also offers **private client advisors** who can conduct deeper title checks, title deeds reviews, and contract clarifications\u2014especially valuable when you\u2019re ready to move forward.\n\n### Quick Links to Key Properties (for reference)\n\n- **Warehouse / Commercial Stock \u2013 Al\u2011Manakh**  \n  Title: \u0645\u0633\u062a\u0648\u062f\u0639 \u062a\u062c\u0627\u0631\u064a 14,401.399\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0646\u0627\u062e  \n  Developer: Wasalt Verified Partner  \n  [View Official Project](https://wasalt.sa/en/property/undefined-5967923)\n\n- **Land \u2013 700\u202fSQM Facing NW, 30\u202fm Width St.**  \n  Price: 3,018,400\u202fAED (\u22483,080,000\u202fSAR)  \n  Location: As\u2011Saadah, Riyadh  \n  [View Official Project](https://wasalt.sa/en/property/land-700-sqm-facing-north-west-on-30m-width-street-5970217)\n\n- **Building \u2013 Residential/Commercial 3.328\u202fSQM, Al\u2011Mursalat**  \n  Title: \u0639\u0645\u0627\u0631\u0629 \u0633\u0643\u0646\u064a\u0629 \u062a\u062c\u0627\u0631\u064a\u0629 3.328\u06452 \u0628\u062d\u064a \u0627\u0644\u0645\u0631\u0633\u0644\u0627\u062a  \n  Developer: Wasalt Verified Partner  \n  [View Official Project](https://wasalt.sa/en/property/undefined-5967919)\n\n> **Next Step:** If you wish to explore any of these developments further\u2014or to obtain a comprehensive due\u2011diligence report\u2014please click the \u201cRequest Private Viewing\u201d sidebar form linked on the property page, or reach out directly to Wasalt\u2019s concierge team. We\u2019ll gladly arrange a private showing and share the official brochure.\n\n---\n\n**In short:** Wasalt safeguards ownership and listing integrity by pairing each title with a *Verified Partner* designation and a dedicated, government\u2011hosted project page. Use those links to validate details, then engage our private advisors for the highest level of assurance before committing."
+  },
+  {
+    "id": 50,
+    "category": "Advisory & Domain",
+    "question": "Compare DG1 Living in Business Bay and DaVinci Tower by Pagani for an investor.",
+    "retrieval_time_ms": 572.5,
+    "llm_time_ms": 32604.1,
+    "total_time_ms": 33176.6,
+    "model_used": "openrouter/free",
+    "retrieved_count": 3,
+    "top_matches": [
+      "Da Vinci Tower, Interiors By Pagani",
+      "The Pagani Penthouse",
+      "DG1"
+    ],
+    "top_scores": [
+      0.4924,
+      0.3713,
+      0.3506
+    ],
+    "entity_recalled": true,
+    "filter_valid": true,
+    "answer": "An excellent comparison for an investor seeking prime Dubai real estate. Both **DG1** and the **Da Vinci Tower** are premium developments by DarGlobal, offering canal views and distinct luxury profiles. However, they target different investment strategies, capital allocation profiles, and timelines.\n\nHere is an executive comparison tailored for an investor's perspective:\n\n---\n\n### **Executive Overview**\n*   **DG1 (Business Bay)** is a highly accessible, architecturally forward development by Gensler Architects. It offers a lower capital entry point (starting at **AED 1,720,000**) and serves as an excellent high-liquidity play in a highly commercial residential hub.\n*   **Da Vinci Tower (Downtown Dubai Canal)** is a hyper-luxury, co-branded asset with **Pagani Automobili**. It demands a higher capital commitment (starting at **AED 5,800,000**) but offers immediate prestige branding, hypercar design integration, and an earlier handover timeline.\n\n---\n\n### **Side-by-Side Investment Profile**\n\n| Feature | **DG1 (Business Bay)** | **Da Vinci Tower, Interiors by Pagani** |\n| :--- | :--- | :--- |\n| **Developer & Branding** | DarGlobal & **Gensler Architects** | DarGlobal & **Pagani Automobili** |\n| **Location** | Business Bay, Dubai | Downtown Dubai Canal |\n| **Starting Price** | **AED 1,720,000** (High capital efficiency) | **AED 5,800,000** (Ultra-premium tier) |\n| **Unit Configuration** | 1 Bedroom | 2 Bedrooms |\n| **Handover Date** | **December 2027** | **December 2025** (Earlier liquidity) |\n| **Core Investor Amenities** | Sky lounge, Infinity pool, State-of-the-art gym | Private cinema, Luxury spa, Pagani hypercar design accents, Dubai Canal views |\n\n---\n\n### **Investment Merits Analysis**\n\n#### **1. Capital Entry & Portfolio Strategy**\n*   **DG1** is ideal for investors looking to optimize portfolio diversification. With an entry point under AED 2 million, it allows investors to secure a branded DarGlobal asset with lower immediate capital drag, potentially yielding strong rental demand from Business Bay's high expatriate professional demographic.\n*   **Da Vinci Tower** is tailored for collectors and high-net-worth individuals (HNWIs) seeking distinctive \"passion assets.\" The Pagani co-branding adds a collectible layer of luxury that typically commands premium rental rates and stronger capital preservation.\n\n#### **2. Timeline to Liquidity (Cash Flow vs. Long-term Hold)**\n*   **Da Vinci Tower hands over in December 2025**, offering a roughly two-year advantage over DG1 (December 2027). If your investment thesis relies on generating rental yields or refinancing sooner, Da Vinci Tower provides the faster path to market.\n*   **DG1's later 2027 completion** aligns with market cycles that may favor new launches, but requires a longer capital lock-up period.\n\n#### **3. Location & Target Demographics**\n*   **Business Bay (DG1)** is a bustling financial and residential district. It appeals heavily to young executives, digital nomads, and corporate renters seeking modern wellness amenities (gym, sky lounge, infinity pool).\n*   **Downtown Dubai Canal (Da Vinci Tower)** sits in a highly tourist-centric, globally recognized locale. The canal views combined with the private cinema and luxury spa target ultra-high-end short-term luxury lets and elite long-term tenants.\n\n---\n\n### **Strategic Recommendation**\n*   Choose **DG1** if your priority is **capital efficiency, modern architectural design (Gensler), and a strong commercial rental hub** with a robust entry price.\n*   Choose **Da Vinci Tower** if your priority is **prestige branding (Pagani), faster market entry (2025 handover), and hyper-luxury experiential amenities** (private cinema, spa) to secure a premium tier asset.\n\n### **Next Steps**\nWould you like to review the official brochures for both developments, or do you have specific questions regarding portfolio allocation? You can proceed by using the **'Request Private Viewing'** form to have a private client advisor contact you with exclusive developer pricing and floor plans."
+  }
+]
