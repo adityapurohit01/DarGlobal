@@ -20,6 +20,15 @@ from src.llm.client import OpenRouterClient
 
 load_dotenv()
 
+# Bridge Streamlit Cloud secrets to os.environ for zero-configuration cloud hosting
+try:
+    if hasattr(st, "secrets"):
+        for k, v in st.secrets.items():
+            if isinstance(v, str):
+                os.environ.setdefault(k, v)
+except Exception:
+    pass
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
