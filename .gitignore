@@ -1,6 +1,9 @@
 # Environment variables
 .env
 
+# Client leads and user inquiries (PII)
+data/leads.json
+
 # Scratch and intermediate debug files
 scratch/
 
