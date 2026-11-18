@@ -1,0 +1,32 @@
+{
+  "test_1_page_load": {
+    "status": "PASSED",
+    "time_ms": 2395,
+    "details": "Hero title verified: 'DARGLOBAL & WASALT'"
+  },
+  "test_2_chat_rag": {
+    "status": "PASSED",
+    "time_ms": 8194,
+    "details": "Assistant successfully answered: 'Da Vinci Tower \u2013 Interiors By Pagani\nDarGlobal Development | Dubai, United Arab ...'"
+  },
+  "test_3_lead_capture": {
+    "status": "PASSED",
+    "time_ms": 2393,
+    "details": "Lead successfully persisted for 'Sheikh Mansoor E2E 1794987713'"
+  },
+  "test_4_currency_switcher": {
+    "status": "PASSED",
+    "time_ms": 139,
+    "details": "Currency selector interactable and responsive"
+  },
+  "test_5_portfolio_explorer": {
+    "status": "PASSED",
+    "time_ms": 4258,
+    "details": "Live search returned 'Da Vinci Tower, Interiors By Pagani'"
+  },
+  "test_6_analytics": {
+    "status": "PASSED",
+    "time_ms": 2234,
+    "details": "Metrics verified: ['76', '38', '38', '180,757,914 AED']"
+  }
+}
