@@ -372,6 +372,35 @@ def format_price(price_aed: float, currency: str) -> str:
     return f"{converted:,.0f} {sym}"
 
 
+def render_property_card_html(prop: dict, currency: str) -> str:
+    """Renders a luxury property card HTML without indentation to prevent Markdown code-block escaping."""
+    badge_cls = "badge-dg" if prop.get("source") == "DarGlobal" else "badge-ws"
+    formatted_p = format_price(prop.get("price_aed", 0), currency)
+    img_src = get_property_image(prop)
+    brand_partner = prop.get("brand_partner")
+    brand_pill = f"<span class='badge-tag' style='background:rgba(212,175,55,0.15); border:1px solid #d4af37; color:#f6e27a;'>✨ {brand_partner}</span>" if brand_partner else ""
+    beds_info = f" &bull; <b>Beds:</b> {prop.get('bedrooms')}" if prop.get("bedrooms") else ""
+    title = prop.get("title", "Luxury Residence")
+    city = prop.get("city", "Dubai")
+    source = prop.get("source", "DarGlobal")
+    handover = prop.get("completion_date", "Ready")
+    prop_type = prop.get("property_type", "Residence")
+    source_url = prop.get("source_url", "https://darglobal.co.uk")
+
+    return (
+        "<div class='property-card-container'>"
+        f"<div class='card-img-wrapper'><img src='{img_src}' class='card-img'/></div>"
+        "<div class='card-content'>"
+        f"<div><span class='badge-tag {badge_cls}'>{source}</span>"
+        f"<span class='badge-tag' style='background:rgba(255,255,255,0.06); color:#cbd5e1;'>{city}</span>{brand_pill}</div>"
+        f"<div class='card-title'>{title}</div>"
+        f"<div class='card-price'>{formatted_p}</div>"
+        f"<div class='card-specs'><b>Handover:</b> {handover}<br/><b>Type:</b> {prop_type}{beds_info}</div>"
+        f"<a href='{source_url}' target='_blank' class='card-btn'>View Project Page &rarr;</a>"
+        "</div></div>"
+    )
+
+
 def save_lead(name: str, phone: str, email: str, notes: str, preferred_property: str = "General Inquiry") -> None:
     """Persists private client leads."""
     leads_file = Path(__file__).resolve().parent.parent / "data" / "leads.json"
@@ -544,32 +573,7 @@ with tab_chat:
                     cols = st.columns(min(len(props), 3))
                     for i, p in enumerate(props[:3]):
                         with cols[i]:
-                            badge_cls = "badge-dg" if p.get("source") == "DarGlobal" else "badge-ws"
-                            formatted_p = format_price(p.get("price_aed", 0), selected_currency)
-                            img_src = get_property_image(p)
-                            st.markdown(
-                                f"""
-                                <div class='property-card-container'>
-                                    <div class='card-img-wrapper'>
-                                        <img src='{img_src}' class='card-img'/>
-                                    </div>
-                                    <div class='card-content'>
-                                        <div>
-                                            <span class='badge-tag {badge_cls}'>{p.get('source')}</span>
-                                            <span class='badge-tag' style='background:rgba(255,255,255,0.06); color:#cbd5e1;'>{p.get('city')}</span>
-                                        </div>
-                                        <div class='card-title'>{p.get('title')}</div>
-                                        <div class='card-price'>{formatted_p}</div>
-                                        <div class='card-specs'>
-                                            <b>Handover:</b> {p.get('completion_date', 'Ready')}<br/>
-                                            <b>Type:</b> {p.get('property_type', 'Residence')}
-                                        </div>
-                                        <a href='{p.get('source_url')}' target='_blank' class='card-btn'>View Project Page &rarr;</a>
-                                    </div>
-                                </div>
-                                """,
-                                unsafe_allow_html=True,
-                            )
+                            st.markdown(render_property_card_html(p, selected_currency), unsafe_allow_html=True)
 
         # Handle Chat Input
         user_input = st.chat_input("Inquire about projects, pricing, branded residences, or locations...")
@@ -626,32 +630,7 @@ with tab_chat:
                     cols = st.columns(min(len(matched_records), 3))
                     for i, p in enumerate(matched_records[:3]):
                         with cols[i]:
-                            badge_cls = "badge-dg" if p.get("source") == "DarGlobal" else "badge-ws"
-                            formatted_p = format_price(p.get("price_aed", 0), selected_currency)
-                            img_src = get_property_image(p)
-                            st.markdown(
-                                f"""
-                                <div class='property-card-container'>
-                                    <div class='card-img-wrapper'>
-                                        <img src='{img_src}' class='card-img'/>
-                                    </div>
-                                    <div class='card-content'>
-                                        <div>
-                                            <span class='badge-tag {badge_cls}'>{p.get('source')}</span>
-                                            <span class='badge-tag' style='background:rgba(255,255,255,0.06); color:#cbd5e1;'>{p.get('city')}</span>
-                                        </div>
-                                        <div class='card-title'>{p.get('title')}</div>
-                                        <div class='card-price'>{formatted_p}</div>
-                                        <div class='card-specs'>
-                                            <b>Handover:</b> {p.get('completion_date', 'Ready')}<br/>
-                                            <b>Type:</b> {p.get('property_type', 'Residence')}
-                                        </div>
-                                        <a href='{p.get('source_url')}' target='_blank' class='card-btn'>View Project Page &rarr;</a>
-                                    </div>
-                                </div>
-                                """,
-                                unsafe_allow_html=True,
-                            )
+                            st.markdown(render_property_card_html(p, selected_currency), unsafe_allow_html=True)
 
             st.session_state.messages.append(
                 {
@@ -720,35 +699,7 @@ with tab_catalog:
     for idx, prop in enumerate(filtered):
         col_idx = idx % 3
         with grid_cols[col_idx]:
-            badge_cls = "badge-dg" if prop.get("source") == "DarGlobal" else "badge-ws"
-            formatted_p = format_price(prop.get("price_aed", 0), selected_currency)
-            img_src = get_property_image(prop)
-            brand_pill = f"<span class='badge-tag' style='background:rgba(212,175,55,0.15); border:1px solid #d4af37; color:#f6e27a;'>✨ {prop.get('brand_partner')}</span>" if prop.get("brand_partner") else ""
-
-            st.markdown(
-                f"""
-                <div class='property-card-container'>
-                    <div class='card-img-wrapper'>
-                        <img src='{img_src}' class='card-img'/>
-                    </div>
-                    <div class='card-content'>
-                        <div>
-                            <span class='badge-tag {badge_cls}'>{prop.get('source')}</span>
-                            <span class='badge-tag' style='background:rgba(255,255,255,0.06); color:#cbd5e1;'>{prop.get('city')}</span>
-                            {brand_pill}
-                        </div>
-                        <div class='card-title'>{prop.get('title')}</div>
-                        <div class='card-price'>{formatted_p}</div>
-                        <div class='card-specs'>
-                            <b>Handover:</b> {prop.get('completion_date', 'Ready')}<br/>
-                            <b>Type:</b> {prop.get('property_type', 'Residence')} &bull; <b>Beds:</b> {prop.get('bedrooms', 'Inquire')}
-                        </div>
-                        <a href='{prop.get('source_url')}' target='_blank' class='card-btn'>View Project Page &rarr;</a>
-                    </div>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
+            st.markdown(render_property_card_html(prop, selected_currency), unsafe_allow_html=True)
 
 # ================= TAB 3: MARKET ANALYTICS =================
 with tab_analytics:
@@ -759,46 +710,26 @@ with tab_analytics:
     m1, m2, m3, m4 = st.columns(4)
     with m1:
         st.markdown(
-            f"""
-            <div class='metric-card'>
-                <div class='metric-val'>{len(all_properties)}</div>
-                <div class='metric-label'>Total Properties</div>
-            </div>
-            """,
+            f"<div class='metric-card'><div class='metric-val'>{len(all_properties)}</div><div class='metric-label'>Total Properties</div></div>",
             unsafe_allow_html=True,
         )
     with m2:
         dg_count = sum(1 for p in all_properties if p["source"] == "DarGlobal")
         st.markdown(
-            f"""
-            <div class='metric-card'>
-                <div class='metric-val'>{dg_count}</div>
-                <div class='metric-label'>DarGlobal Flagships</div>
-            </div>
-            """,
+            f"<div class='metric-card'><div class='metric-val'>{dg_count}</div><div class='metric-label'>DarGlobal Flagships</div></div>",
             unsafe_allow_html=True,
         )
     with m3:
         ws_count = sum(1 for p in all_properties if p["source"] == "Wasalt")
         st.markdown(
-            f"""
-            <div class='metric-card'>
-                <div class='metric-val'>{ws_count}</div>
-                <div class='metric-label'>Wasalt Verified Units</div>
-            </div>
-            """,
+            f"<div class='metric-card'><div class='metric-val'>{ws_count}</div><div class='metric-label'>Wasalt Verified Units</div></div>",
             unsafe_allow_html=True,
         )
     with m4:
         avg_aed = sum(p.get("price_aed", 0) for p in all_properties if p.get("price_aed")) / max(1, len(all_properties))
         formatted_avg = format_price(avg_aed, selected_currency)
         st.markdown(
-            f"""
-            <div class='metric-card'>
-                <div class='metric-val'>{formatted_avg}</div>
-                <div class='metric-label'>Portfolio Avg Valuation</div>
-            </div>
-            """,
+            f"<div class='metric-card'><div class='metric-val'>{formatted_avg}</div><div class='metric-label'>Portfolio Avg Valuation</div></div>",
             unsafe_allow_html=True,
         )
 
